@@ -1,0 +1,11 @@
+C:\Users\ADMIN\Desktop\Sistema Escolar\SessionManager\bin\Release\SessionManager.dll
+C:\Users\ADMIN\Desktop\Sistema Escolar\SessionManager\bin\Release\SessionManager.pdb
+C:\Users\ADMIN\Desktop\Sistema Escolar\SessionManager\bin\Release\DataManager.dll
+C:\Users\ADMIN\Desktop\Sistema Escolar\SessionManager\bin\Release\MySql.Data.dll
+C:\Users\ADMIN\Desktop\Sistema Escolar\SessionManager\bin\Release\DataManager.pdb
+C:\Users\ADMIN\Desktop\Sistema Escolar\SessionManager\bin\Release\MySql.Data.xml
+C:\Users\ADMIN\Desktop\Sistema Escolar\SessionManager\obj\Release\SessionManager.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\Sistema Escolar\SessionManager\obj\Release\SessionManager.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\Sistema Escolar\SessionManager\obj\Release\SessionManager.csproj.CopyComplete
+C:\Users\ADMIN\Desktop\Sistema Escolar\SessionManager\obj\Release\SessionManager.dll
+C:\Users\ADMIN\Desktop\Sistema Escolar\SessionManager\obj\Release\SessionManager.pdb

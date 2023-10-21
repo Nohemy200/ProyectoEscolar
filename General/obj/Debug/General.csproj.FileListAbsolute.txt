@@ -1,0 +1,55 @@
+D:\Repositorios\USO\Sistema de Gestion de Usuarios\General\bin\Debug\General.dll
+D:\Repositorios\USO\Sistema de Gestion de Usuarios\General\bin\Debug\General.pdb
+D:\Repositorios\USO\Sistema de Gestion de Usuarios\General\obj\Debug\General.csproj.AssemblyReference.cache
+D:\Repositorios\USO\Sistema de Gestion de Usuarios\General\obj\Debug\General.csproj.CoreCompileInputs.cache
+D:\Repositorios\USO\Sistema de Gestion de Usuarios\General\obj\Debug\General.dll
+D:\Repositorios\USO\Sistema de Gestion de Usuarios\General\obj\Debug\General.pdb
+D:\Repositorios\USO\Sistema de Gestion de Usuarios\General\obj\Debug\General.GUI.RolesGestion.resources
+D:\Repositorios\USO\Sistema de Gestion de Usuarios\General\obj\Debug\General.Properties.Resources.resources
+D:\Repositorios\USO\Sistema de Gestion de Usuarios\General\obj\Debug\General.csproj.GenerateResource.cache
+D:\Repositorios\USO\Sistema de Gestion de Usuarios\General\bin\Debug\DataManager.dll
+D:\Repositorios\USO\Sistema de Gestion de Usuarios\General\bin\Debug\MySql.Data.dll
+D:\Repositorios\USO\Sistema de Gestion de Usuarios\General\bin\Debug\DataManager.pdb
+D:\Repositorios\USO\Sistema de Gestion de Usuarios\General\bin\Debug\MySql.Data.xml
+D:\Repositorios\USO\Sistema de Gestion de Usuarios\General\obj\Debug\General.csproj.CopyComplete
+D:\Repositorios\USO\Sistema de Gestion de Usuarios\General\obj\Debug\General.GUI.RolesEdicion.resources
+D:\Repositorios\USO\Sistema de Gestion de Usuarios\General\obj\Debug\General.GUI.PermisosGestion.resources
+C:\Users\ADMIN\Desktop\Sistema Escolar\General\bin\Debug\General.dll
+C:\Users\ADMIN\Desktop\Sistema Escolar\General\bin\Debug\General.pdb
+C:\Users\ADMIN\Desktop\Sistema Escolar\General\bin\Debug\DataManager.dll
+C:\Users\ADMIN\Desktop\Sistema Escolar\General\bin\Debug\MySql.Data.dll
+C:\Users\ADMIN\Desktop\Sistema Escolar\General\bin\Debug\DataManager.pdb
+C:\Users\ADMIN\Desktop\Sistema Escolar\General\bin\Debug\MySql.Data.xml
+C:\Users\ADMIN\Desktop\Sistema Escolar\General\obj\Debug\General.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\Sistema Escolar\General\obj\Debug\General.GUI.AlumnoEdicion.resources
+C:\Users\ADMIN\Desktop\Sistema Escolar\General\obj\Debug\General.GUI.AlumnoGestion.resources
+C:\Users\ADMIN\Desktop\Sistema Escolar\General\obj\Debug\General.GUI.ApoderadoEdicion.resources
+C:\Users\ADMIN\Desktop\Sistema Escolar\General\obj\Debug\General.GUI.ApoderadoGestion.resources
+C:\Users\ADMIN\Desktop\Sistema Escolar\General\obj\Debug\General.GUI.AulasEdicion.resources
+C:\Users\ADMIN\Desktop\Sistema Escolar\General\obj\Debug\General.GUI.AulasGestion.resources
+C:\Users\ADMIN\Desktop\Sistema Escolar\General\obj\Debug\General.GUI.DocentesEdicion.resources
+C:\Users\ADMIN\Desktop\Sistema Escolar\General\obj\Debug\General.GUI.DocentesGestion.resources
+C:\Users\ADMIN\Desktop\Sistema Escolar\General\obj\Debug\General.GUI.EspecialidadEdicion.resources
+C:\Users\ADMIN\Desktop\Sistema Escolar\General\obj\Debug\General.GUI.EspecialidadGestion.resources
+C:\Users\ADMIN\Desktop\Sistema Escolar\General\obj\Debug\General.GUI.EstadoEdicion.resources
+C:\Users\ADMIN\Desktop\Sistema Escolar\General\obj\Debug\General.GUI.EstadoGestion.resources
+C:\Users\ADMIN\Desktop\Sistema Escolar\General\obj\Debug\General.GUI.GeneroEdicion.resources
+C:\Users\ADMIN\Desktop\Sistema Escolar\General\obj\Debug\General.GUI.GeneroGestion.resources
+C:\Users\ADMIN\Desktop\Sistema Escolar\General\obj\Debug\General.GUI.GradosEdicion.resources
+C:\Users\ADMIN\Desktop\Sistema Escolar\General\obj\Debug\General.GUI.GradosGestion.resources
+C:\Users\ADMIN\Desktop\Sistema Escolar\General\obj\Debug\General.GUI.MateriaEdicion.resources
+C:\Users\ADMIN\Desktop\Sistema Escolar\General\obj\Debug\General.GUI.MateriaGestion.resources
+C:\Users\ADMIN\Desktop\Sistema Escolar\General\obj\Debug\General.GUI.MateriasGradosEdicion.resources
+C:\Users\ADMIN\Desktop\Sistema Escolar\General\obj\Debug\General.GUI.MateriasGradosGestion.resources
+C:\Users\ADMIN\Desktop\Sistema Escolar\General\obj\Debug\Matriculas.GUI.MatriculaGestion.resources
+C:\Users\ADMIN\Desktop\Sistema Escolar\General\obj\Debug\General.GUI.PermisosGestion.resources
+C:\Users\ADMIN\Desktop\Sistema Escolar\General\obj\Debug\General.GUI.RolesEdicion.resources
+C:\Users\ADMIN\Desktop\Sistema Escolar\General\obj\Debug\General.GUI.RolesGestion.resources
+C:\Users\ADMIN\Desktop\Sistema Escolar\General\obj\Debug\General.GUI.UsuarioEdicion.resources
+C:\Users\ADMIN\Desktop\Sistema Escolar\General\obj\Debug\General.GUI.UsuarioGestion.resources
+C:\Users\ADMIN\Desktop\Sistema Escolar\General\obj\Debug\General.Properties.Resources.resources
+C:\Users\ADMIN\Desktop\Sistema Escolar\General\obj\Debug\General.csproj.GenerateResource.cache
+C:\Users\ADMIN\Desktop\Sistema Escolar\General\obj\Debug\General.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\Sistema Escolar\General\obj\Debug\General.csproj.CopyComplete
+C:\Users\ADMIN\Desktop\Sistema Escolar\General\obj\Debug\General.dll
+C:\Users\ADMIN\Desktop\Sistema Escolar\General\obj\Debug\General.pdb

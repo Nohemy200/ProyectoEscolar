@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ReporteAlumnosActivos" targetNamespace="http://tempuri.org/ReporteAlumnosActivos.xsd" xmlns:mstns="http://tempuri.org/ReporteAlumnosActivos.xsd" xmlns="http://tempuri.org/ReporteAlumnosActivos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ReporteAlumnosActivos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ReporteAlumnosActivos" msprop:Generator_UserDSName="ReporteAlumnosActivos">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AlumnosActivos" msprop:Generator_TableClassName="AlumnosActivosDataTable" msprop:Generator_TableVarName="tableAlumnosActivos" msprop:Generator_TablePropName="AlumnosActivos" msprop:Generator_RowDeletingName="AlumnosActivosRowDeleting" msprop:Generator_RowChangingName="AlumnosActivosRowChanging" msprop:Generator_RowEvHandlerName="AlumnosActivosRowChangeEventHandler" msprop:Generator_RowDeletedName="AlumnosActivosRowDeleted" msprop:Generator_UserTableName="AlumnosActivos" msprop:Generator_RowChangedName="AlumnosActivosRowChanged" msprop:Generator_RowEvArgName="AlumnosActivosRowChangeEvent" msprop:Generator_RowClassName="AlumnosActivosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idalumno" msdata:Caption="DataColumn" msprop:Generator_ColumnVarNameInTable="columnidalumno" msprop:Generator_ColumnPropNameInRow="idalumno" msprop:Generator_ColumnPropNameInTable="idalumnoColumn" msprop:Generator_UserColumnName="idalumno" type="xs:string" minOccurs="0" />
+              <xs:element name="nie" msdata:Caption="DataColumn" msprop:Generator_ColumnVarNameInTable="columnnie" msprop:Generator_ColumnPropNameInRow="nie" msprop:Generator_ColumnPropNameInTable="nieColumn" msprop:Generator_UserColumnName="nie" type="xs:string" minOccurs="0" />
+              <xs:element name="nombres" msdata:Caption="DataColumn" msprop:Generator_ColumnVarNameInTable="columnnombres" msprop:Generator_ColumnPropNameInRow="nombres" msprop:Generator_ColumnPropNameInTable="nombresColumn" msprop:Generator_UserColumnName="nombres" type="xs:string" minOccurs="0" />
+              <xs:element name="apellidos" msdata:Caption="DataColumn" msprop:Generator_ColumnVarNameInTable="columnapellidos" msprop:Generator_ColumnPropNameInRow="apellidos" msprop:Generator_ColumnPropNameInTable="apellidosColumn" msprop:Generator_UserColumnName="apellidos" type="xs:string" minOccurs="0" />
+              <xs:element name="fechanacimiento" msdata:Caption="DataColumn" msprop:Generator_ColumnVarNameInTable="columnfechanacimiento" msprop:Generator_ColumnPropNameInRow="fechanacimiento" msprop:Generator_ColumnPropNameInTable="fechanacimientoColumn" msprop:Generator_UserColumnName="fechanacimiento" type="xs:string" minOccurs="0" />
+              <xs:element name="telefono" msdata:Caption="DataColumn" msprop:Generator_ColumnVarNameInTable="columntelefono" msprop:Generator_ColumnPropNameInRow="telefono" msprop:Generator_ColumnPropNameInTable="telefonoColumn" msprop:Generator_UserColumnName="telefono" type="xs:string" minOccurs="0" />
+              <xs:element name="idgenero" msdata:Caption="DataColumn" msprop:Generator_ColumnVarNameInTable="columnidgenero" msprop:Generator_ColumnPropNameInRow="idgenero" msprop:Generator_ColumnPropNameInTable="idgeneroColumn" msprop:Generator_UserColumnName="idgenero" type="xs:string" minOccurs="0" />
+              <xs:element name="genero" msdata:Caption="DataColumn" msprop:Generator_ColumnVarNameInTable="columngenero" msprop:Generator_ColumnPropNameInRow="genero" msprop:Generator_ColumnPropNameInTable="generoColumn" msprop:Generator_UserColumnName="genero" type="xs:string" minOccurs="0" />
+              <xs:element name="idestado" msdata:Caption="DataColumn" msprop:Generator_ColumnVarNameInTable="columnidestado" msprop:Generator_ColumnPropNameInRow="idestado" msprop:Generator_ColumnPropNameInTable="idestadoColumn" msprop:Generator_UserColumnName="idestado" type="xs:string" minOccurs="0" />
+              <xs:element name="estado" msdata:Caption="DataColumn" msprop:Generator_ColumnVarNameInTable="columnestado" msprop:Generator_ColumnPropNameInRow="estado" msprop:Generator_ColumnPropNameInTable="estadoColumn" msprop:Generator_UserColumnName="estado" type="xs:string" minOccurs="0" />
+              <xs:element name="idapoderado" msdata:Caption="DataColumn" msprop:Generator_ColumnVarNameInTable="columnidapoderado" msprop:Generator_ColumnPropNameInRow="idapoderado" msprop:Generator_ColumnPropNameInTable="idapoderadoColumn" msprop:Generator_UserColumnName="idapoderado" type="xs:string" minOccurs="0" />
+              <xs:element name="nombresapoderado" msdata:Caption="DataColumn" msprop:Generator_ColumnVarNameInTable="columnnombresapoderado" msprop:Generator_ColumnPropNameInRow="nombresapoderado" msprop:Generator_ColumnPropNameInTable="nombresapoderadoColumn" msprop:Generator_UserColumnName="nombresapoderado" type="xs:string" minOccurs="0" />
+              <xs:element name="direccion" msprop:Generator_ColumnVarNameInTable="columndireccion" msprop:Generator_ColumnPropNameInRow="direccion" msprop:Generator_ColumnPropNameInTable="direccionColumn" msprop:Generator_UserColumnName="direccion" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D528AF95-601A-446E-A298-D6F00A39EE0A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Reportes</RootNamespace>
+    <AssemblyName>Reportes</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAT\Aulas.cs">
+      <DependentUpon>Aulas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DAT\Aulas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Aulas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DAT\ReporteAlumnos.cs">
+      <DependentUpon>ReporteAlumnos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DAT\ReporteAlumnos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReporteAlumnos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DAT\ReporteAlumnosActivos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReporteAlumnosActivos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DAT\ReporteMatriculas.cs">
+      <DependentUpon>ReporteMatriculas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DAT\ReporteMatriculas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReporteMatriculas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\VisorAlumnos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\VisorAlumnos.Designer.cs">
+      <DependentUpon>VisorAlumnos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Aulas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Aulas.Designer.cs">
+      <DependentUpon>Aulas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\VisorAlumnosActivos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\VisorAlumnosActivos.Designer.cs">
+      <DependentUpon>VisorAlumnosActivos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\VisorMatriculas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\VisorMatriculas.Designer.cs">
+      <DependentUpon>VisorMatriculas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="REP\Alumnos.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Alumnos.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REP\AlumnosActivos.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AlumnosActivos.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REP\Aulas.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Aulas.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REP\Matriculas.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Matriculas.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CLS\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GUI\VisorAlumnos.resx">
+      <DependentUpon>VisorAlumnos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Aulas.resx">
+      <DependentUpon>Aulas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\VisorAlumnosActivos.resx">
+      <DependentUpon>VisorAlumnosActivos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\VisorMatriculas.resx">
+      <DependentUpon>VisorMatriculas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REP\Alumnos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Alumnos.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REP\AlumnosActivos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>AlumnosActivos.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REP\Aulas.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Aulas.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REP\Matriculas.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Matriculas.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DAT\Aulas.xsc">
+      <DependentUpon>Aulas.xsd</DependentUpon>
+    </None>
+    <None Include="DAT\Aulas.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Aulas.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DAT\Aulas.xss">
+      <DependentUpon>Aulas.xsd</DependentUpon>
+    </None>
+    <None Include="DAT\ReporteAlumnos.xsc">
+      <DependentUpon>ReporteAlumnos.xsd</DependentUpon>
+    </None>
+    <None Include="DAT\ReporteAlumnos.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReporteAlumnos.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DAT\ReporteAlumnos.xss">
+      <DependentUpon>ReporteAlumnos.xsd</DependentUpon>
+    </None>
+    <None Include="DAT\ReporteAlumnosActivos.xsc">
+      <DependentUpon>ReporteAlumnosActivos.xsd</DependentUpon>
+    </None>
+    <None Include="DAT\ReporteAlumnosActivos.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReporteAlumnosActivos.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DAT\ReporteAlumnosActivos.xss">
+      <DependentUpon>ReporteAlumnosActivos.xsd</DependentUpon>
+    </None>
+    <None Include="DAT\ReporteMatriculas.xsc">
+      <DependentUpon>ReporteMatriculas.xsd</DependentUpon>
+    </None>
+    <None Include="DAT\ReporteMatriculas.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReporteMatriculas.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DAT\ReporteMatriculas.xss">
+      <DependentUpon>ReporteMatriculas.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataManager\DataManager.csproj">
+      <Project>{f8971654-8c38-4e52-9d8b-c6095bfea6b4}</Project>
+      <Name>DataManager</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B286DA9B-DB7A-4C01-BDB8-C2D15C83D258}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>General</RootNamespace>
+    <AssemblyName>General</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CLS\Alumnos.cs" />
+    <Compile Include="CLS\Apoderados.cs" />
+    <Compile Include="CLS\Aulas.cs" />
+    <Compile Include="CLS\Docentes.cs" />
+    <Compile Include="CLS\Especialidad.cs" />
+    <Compile Include="CLS\Estado.cs" />
+    <Compile Include="CLS\Genero.cs" />
+    <Compile Include="CLS\Grados.cs" />
+    <Compile Include="CLS\Materias.cs" />
+    <Compile Include="CLS\MateriasAlumnos.cs" />
+    <Compile Include="CLS\MateriasGrados.cs" />
+    <Compile Include="CLS\Matriculas.cs" />
+    <Compile Include="CLS\Notas.cs" />
+    <Compile Include="CLS\Periodos.cs" />
+    <Compile Include="CLS\Permisos.cs" />
+    <Compile Include="CLS\Roles.cs" />
+    <Compile Include="CLS\Usuarios.cs" />
+    <Compile Include="GUI\AlumnoEdicion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\AlumnoEdicion.Designer.cs">
+      <DependentUpon>AlumnoEdicion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\AlumnoGestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\AlumnoGestion.Designer.cs">
+      <DependentUpon>AlumnoGestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ApoderadoEdicion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ApoderadoEdicion.Designer.cs">
+      <DependentUpon>ApoderadoEdicion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ApoderadoGestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ApoderadoGestion.Designer.cs">
+      <DependentUpon>ApoderadoGestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\AulasEdicion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\AulasEdicion.Designer.cs">
+      <DependentUpon>AulasEdicion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\AulasGestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\AulasGestion.Designer.cs">
+      <DependentUpon>AulasGestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\DocentesEdicion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\DocentesEdicion.Designer.cs">
+      <DependentUpon>DocentesEdicion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\DocentesGestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\DocentesGestion.Designer.cs">
+      <DependentUpon>DocentesGestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\EspecialidadEdicion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\EspecialidadEdicion.Designer.cs">
+      <DependentUpon>EspecialidadEdicion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\EspecialidadGestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\EspecialidadGestion.Designer.cs">
+      <DependentUpon>EspecialidadGestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\EstadoEdicion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\EstadoEdicion.Designer.cs">
+      <DependentUpon>EstadoEdicion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\EstadoGestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\EstadoGestion.Designer.cs">
+      <DependentUpon>EstadoGestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\GeneroEdicion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\GeneroEdicion.Designer.cs">
+      <DependentUpon>GeneroEdicion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\GeneroGestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\GeneroGestion.Designer.cs">
+      <DependentUpon>GeneroGestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\GradosEdicion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\GradosEdicion.Designer.cs">
+      <DependentUpon>GradosEdicion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\GradosGestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\GradosGestion.Designer.cs">
+      <DependentUpon>GradosGestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\MateriaEdicion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\MateriaEdicion.Designer.cs">
+      <DependentUpon>MateriaEdicion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\MateriaGestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\MateriaGestion.Designer.cs">
+      <DependentUpon>MateriaGestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\MateriasGradosEdicion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\MateriasGradosEdicion.Designer.cs">
+      <DependentUpon>MateriasGradosEdicion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\MateriasGradosGestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\MateriasGradosGestion.Designer.cs">
+      <DependentUpon>MateriasGradosGestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\MatriculaGestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\MatriculaGestion.Designer.cs">
+      <DependentUpon>MatriculaGestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\PermisosGestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\PermisosGestion.Designer.cs">
+      <DependentUpon>PermisosGestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\RolesEdicion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\RolesEdicion.Designer.cs">
+      <DependentUpon>RolesEdicion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\RolesGestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\RolesGestion.Designer.cs">
+      <DependentUpon>RolesGestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UsuarioEdicion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\UsuarioEdicion.Designer.cs">
+      <DependentUpon>UsuarioEdicion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UsuarioGestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\UsuarioGestion.Designer.cs">
+      <DependentUpon>UsuarioGestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="GUI\AlumnoEdicion.resx">
+      <DependentUpon>AlumnoEdicion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\AlumnoGestion.resx">
+      <DependentUpon>AlumnoGestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ApoderadoEdicion.resx">
+      <DependentUpon>ApoderadoEdicion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ApoderadoGestion.resx">
+      <DependentUpon>ApoderadoGestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\AulasEdicion.resx">
+      <DependentUpon>AulasEdicion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\AulasGestion.resx">
+      <DependentUpon>AulasGestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\DocentesEdicion.resx">
+      <DependentUpon>DocentesEdicion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\DocentesGestion.resx">
+      <DependentUpon>DocentesGestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\EspecialidadEdicion.resx">
+      <DependentUpon>EspecialidadEdicion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\EspecialidadGestion.resx">
+      <DependentUpon>EspecialidadGestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\EstadoEdicion.resx">
+      <DependentUpon>EstadoEdicion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\EstadoGestion.resx">
+      <DependentUpon>EstadoGestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\GeneroEdicion.resx">
+      <DependentUpon>GeneroEdicion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\GeneroGestion.resx">
+      <DependentUpon>GeneroGestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\GradosEdicion.resx">
+      <DependentUpon>GradosEdicion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\GradosGestion.resx">
+      <DependentUpon>GradosGestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MateriaEdicion.resx">
+      <DependentUpon>MateriaEdicion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MateriaGestion.resx">
+      <DependentUpon>MateriaGestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MateriasGradosEdicion.resx">
+      <DependentUpon>MateriasGradosEdicion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MateriasGradosGestion.resx">
+      <DependentUpon>MateriasGradosGestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MatriculaGestion.resx">
+      <DependentUpon>MatriculaGestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\PermisosGestion.resx">
+      <DependentUpon>PermisosGestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\RolesEdicion.resx">
+      <DependentUpon>RolesEdicion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\RolesGestion.resx">
+      <DependentUpon>RolesGestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UsuarioEdicion.resx">
+      <DependentUpon>UsuarioEdicion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UsuarioGestion.resx">
+      <DependentUpon>UsuarioGestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataManager\DataManager.csproj">
+      <Project>{def85f79-edf2-423f-ba18-dd4da84af776}</Project>
+      <Name>DataManager</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
