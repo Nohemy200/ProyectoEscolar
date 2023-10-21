@@ -138,6 +138,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Asistencia\Asistencia.csproj">
+      <Project>{b8eddcfe-9ac3-4376-bc99-b35f81b0f10f}</Project>
+      <Name>Asistencia</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Calificasiones\Calificasiones.csproj">
       <Project>{99e18cb9-e2d5-411d-8261-4c8d5295d42c}</Project>
       <Name>Calificasiones</Name>

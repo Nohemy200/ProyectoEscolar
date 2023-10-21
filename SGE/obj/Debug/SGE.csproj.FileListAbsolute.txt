@@ -52,3 +52,5 @@ C:\Users\ADMIN\Desktop\Sistema Escolar\SGE\obj\Debug\SGE.exe
 C:\Users\ADMIN\Desktop\Sistema Escolar\SGE\obj\Debug\SGE.pdb
 C:\Users\ADMIN\Desktop\Sistema Escolar\SGE\bin\Debug\Calificasiones.dll
 C:\Users\ADMIN\Desktop\Sistema Escolar\SGE\bin\Debug\Calificasiones.pdb
+C:\Users\ADMIN\Desktop\Sistema Escolar\SGE\bin\Debug\Asistencia.dll
+C:\Users\ADMIN\Desktop\Sistema Escolar\SGE\bin\Debug\Asistencia.pdb

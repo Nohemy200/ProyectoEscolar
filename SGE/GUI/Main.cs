@@ -290,5 +290,11 @@ namespace SGE.GUI
             Calificasiones.AsignarNotas f = new Calificasiones.AsignarNotas();
             f.ShowDialog();
         }
+
+        private void verAsistenciaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Asistencia.GUI.AsistenciaGestion asistencia = new Asistencia.GUI.AsistenciaGestion();
+            asistencia.ShowDialog();
+        }
     }
 }

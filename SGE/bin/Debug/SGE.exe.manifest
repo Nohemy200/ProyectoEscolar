@@ -43,6 +43,18 @@
     </dependentAssembly>
   </dependency>
   <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Asistencia.dll" size="14336">
+      <assemblyIdentity name="Asistencia" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>b2P2qHwvOvHMJCsOKPfLhwmCueEyFRMjfkpcYoHwocU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxShockwaveFlashObjects.dll" size="18432">
       <assemblyIdentity name="AxShockwaveFlashObjects" version="1.0.0.0" publicKeyToken="692FBEA5521E1304" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -355,14 +367,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SGE.exe" size="1981920">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SGE.exe" size="1982432">
       <assemblyIdentity name="SGE" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>xQptKoFdKbWGPWlk5Z6w7TeIld+41GbbD8eOTT4VopY=</dsig:DigestValue>
+        <dsig:DigestValue>EXVNFnK7egbKd4TapQ3S16fQqLrMikJ8PC9QluGidIc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
