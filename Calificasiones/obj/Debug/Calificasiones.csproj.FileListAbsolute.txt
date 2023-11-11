@@ -13,3 +13,4 @@ C:\Users\ADMIN\Desktop\Sistema Escolar\Calificasiones\bin\Debug\MySql.Data.xml
 C:\Users\ADMIN\Desktop\Sistema Escolar\Calificasiones\obj\Debug\Calificasiones.csproj.CopyComplete
 C:\Users\ADMIN\Desktop\Sistema Escolar\Calificasiones\bin\Debug\General.dll
 C:\Users\ADMIN\Desktop\Sistema Escolar\Calificasiones\bin\Debug\General.pdb
+C:\Users\ADMIN\Desktop\Sistema Escolar\Calificasiones\obj\Debug\Calificasiones.Properties.Resources.resources

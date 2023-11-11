@@ -29,15 +29,9 @@ namespace Matriculas.GUI
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgvMaterias = new System.Windows.Forms.DataGridView();
-            this.txtNie = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtNombres = new System.Windows.Forms.TextBox();
-            this.Nombres = new System.Windows.Forms.Label();
-            this.txtApellidos = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.idgrado = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.grado = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.idmateria = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -48,6 +42,12 @@ namespace Matriculas.GUI
             this.turno = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.apellidos = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtNie = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtNombres = new System.Windows.Forms.TextBox();
+            this.Nombres = new System.Windows.Forms.Label();
+            this.txtApellidos = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.btnVerAlumnos = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMaterias)).BeginInit();
             this.SuspendLayout();
@@ -57,9 +57,10 @@ namespace Matriculas.GUI
             this.dgvMaterias.AllowUserToAddRows = false;
             this.dgvMaterias.AllowUserToDeleteRows = false;
             this.dgvMaterias.AllowUserToResizeRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.dgvMaterias.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.dgvMaterias.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
             this.dgvMaterias.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.dgvMaterias.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvMaterias.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleVertical;
             this.dgvMaterias.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvMaterias.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -73,14 +74,14 @@ namespace Matriculas.GUI
             this.turno,
             this.apellidos,
             this.nombre});
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.SlateGray;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvMaterias.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.SlateGray;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvMaterias.DefaultCellStyle = dataGridViewCellStyle4;
             this.dgvMaterias.Location = new System.Drawing.Point(0, 152);
             this.dgvMaterias.MultiSelect = false;
             this.dgvMaterias.Name = "dgvMaterias";
@@ -89,63 +90,6 @@ namespace Matriculas.GUI
             this.dgvMaterias.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvMaterias.Size = new System.Drawing.Size(819, 280);
             this.dgvMaterias.TabIndex = 98;
-            // 
-            // txtNie
-            // 
-            this.txtNie.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNie.Location = new System.Drawing.Point(155, 28);
-            this.txtNie.Name = "txtNie";
-            this.txtNie.Size = new System.Drawing.Size(229, 26);
-            this.txtNie.TabIndex = 100;
-            this.txtNie.TextChanged += new System.EventHandler(this.txtNie_TextChanged);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(17, 34);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(132, 20);
-            this.label4.TabIndex = 99;
-            this.label4.Text = "Buscar Por NIE";
-            // 
-            // txtNombres
-            // 
-            this.txtNombres.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombres.Location = new System.Drawing.Point(101, 88);
-            this.txtNombres.Name = "txtNombres";
-            this.txtNombres.ReadOnly = true;
-            this.txtNombres.Size = new System.Drawing.Size(283, 26);
-            this.txtNombres.TabIndex = 102;
-            // 
-            // Nombres
-            // 
-            this.Nombres.AutoSize = true;
-            this.Nombres.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Nombres.Location = new System.Drawing.Point(15, 94);
-            this.Nombres.Name = "Nombres";
-            this.Nombres.Size = new System.Drawing.Size(80, 20);
-            this.Nombres.TabIndex = 101;
-            this.Nombres.Text = "Nombres";
-            // 
-            // txtApellidos
-            // 
-            this.txtApellidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtApellidos.Location = new System.Drawing.Point(504, 88);
-            this.txtApellidos.Name = "txtApellidos";
-            this.txtApellidos.ReadOnly = true;
-            this.txtApellidos.Size = new System.Drawing.Size(295, 26);
-            this.txtApellidos.TabIndex = 104;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(418, 94);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(82, 20);
-            this.label1.TabIndex = 103;
-            this.label1.Text = "Apellidos";
             // 
             // idgrado
             // 
@@ -228,6 +172,63 @@ namespace Matriculas.GUI
             this.nombre.ReadOnly = true;
             this.nombre.Visible = false;
             // 
+            // txtNie
+            // 
+            this.txtNie.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNie.Location = new System.Drawing.Point(155, 28);
+            this.txtNie.Name = "txtNie";
+            this.txtNie.Size = new System.Drawing.Size(229, 26);
+            this.txtNie.TabIndex = 100;
+            this.txtNie.TextChanged += new System.EventHandler(this.txtNie_TextChanged);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(17, 34);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(132, 20);
+            this.label4.TabIndex = 99;
+            this.label4.Text = "Buscar Por NIE";
+            // 
+            // txtNombres
+            // 
+            this.txtNombres.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombres.Location = new System.Drawing.Point(101, 88);
+            this.txtNombres.Name = "txtNombres";
+            this.txtNombres.ReadOnly = true;
+            this.txtNombres.Size = new System.Drawing.Size(283, 26);
+            this.txtNombres.TabIndex = 102;
+            // 
+            // Nombres
+            // 
+            this.Nombres.AutoSize = true;
+            this.Nombres.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Nombres.Location = new System.Drawing.Point(15, 94);
+            this.Nombres.Name = "Nombres";
+            this.Nombres.Size = new System.Drawing.Size(80, 20);
+            this.Nombres.TabIndex = 101;
+            this.Nombres.Text = "Nombres";
+            // 
+            // txtApellidos
+            // 
+            this.txtApellidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtApellidos.Location = new System.Drawing.Point(504, 88);
+            this.txtApellidos.Name = "txtApellidos";
+            this.txtApellidos.ReadOnly = true;
+            this.txtApellidos.Size = new System.Drawing.Size(295, 26);
+            this.txtApellidos.TabIndex = 104;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(418, 94);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(82, 20);
+            this.label1.TabIndex = 103;
+            this.label1.Text = "Apellidos";
+            // 
             // btnVerAlumnos
             // 
             this.btnVerAlumnos.Location = new System.Drawing.Point(422, 27);
@@ -242,7 +243,7 @@ namespace Matriculas.GUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(820, 455);
             this.Controls.Add(this.btnVerAlumnos);
             this.Controls.Add(this.txtApellidos);

@@ -16,11 +16,13 @@
           <xs:complexType>
             <xs:sequence>
               <xs:element name="idmatricula" msdata:Caption="DataColumn1" msprop:Generator_ColumnVarNameInTable="columnidmatricula" msprop:Generator_ColumnPropNameInRow="idmatricula" msprop:Generator_ColumnPropNameInTable="idmatriculaColumn" msprop:Generator_UserColumnName="idmatricula" type="xs:string" minOccurs="0" />
-              <xs:element name="idgrado" msdata:Caption="DataColumn1" msprop:Generator_ColumnVarNameInTable="columnidgrado" msprop:Generator_ColumnPropNameInRow="idgrado" msprop:Generator_ColumnPropNameInTable="idgradoColumn" msprop:Generator_UserColumnName="idgrado" type="xs:string" minOccurs="0" />
+              <xs:element name="estado" msdata:Caption="DataColumn1" msprop:Generator_ColumnVarNameInTable="columnestado" msprop:Generator_ColumnPropNameInRow="estado" msprop:Generator_ColumnPropNameInTable="estadoColumn" msprop:Generator_UserColumnName="estado" type="xs:string" minOccurs="0" />
               <xs:element name="grado" msdata:Caption="DataColumn1" msprop:Generator_ColumnVarNameInTable="columngrado" msprop:Generator_ColumnPropNameInRow="grado" msprop:Generator_ColumnPropNameInTable="gradoColumn" msprop:Generator_UserColumnName="grado" type="xs:string" minOccurs="0" />
-              <xs:element name="idalumno" msdata:Caption="DataColumn1" msprop:Generator_ColumnVarNameInTable="columnidalumno" msprop:Generator_ColumnPropNameInRow="idalumno" msprop:Generator_ColumnPropNameInTable="idalumnoColumn" msprop:Generator_UserColumnName="idalumno" type="xs:string" minOccurs="0" />
+              <xs:element name="nie" msdata:Caption="DataColumn1" msprop:Generator_ColumnVarNameInTable="columnnie" msprop:Generator_ColumnPropNameInRow="nie" msprop:Generator_ColumnPropNameInTable="nieColumn" msprop:Generator_UserColumnName="nie" type="xs:string" minOccurs="0" />
               <xs:element name="nombres" msprop:Generator_ColumnVarNameInTable="columnnombres" msprop:Generator_ColumnPropNameInRow="nombres" msprop:Generator_ColumnPropNameInTable="nombresColumn" msprop:Generator_UserColumnName="nombres" type="xs:string" minOccurs="0" />
-              <xs:element name="apellidos" msprop:Generator_ColumnVarNameInTable="columnapellidos" msprop:Generator_ColumnPropNameInRow="apellidos" msprop:Generator_ColumnPropNameInTable="apellidosColumn" msprop:Generator_UserColumnName="apellidos" type="xs:string" minOccurs="0" />
+              <xs:element name="ciclo" msprop:Generator_ColumnVarNameInTable="columnciclo" msprop:Generator_ColumnPropNameInRow="ciclo" msprop:Generator_ColumnPropNameInTable="cicloColumn" msprop:Generator_UserColumnName="ciclo" type="xs:string" minOccurs="0" />
+              <xs:element name="seccion" msprop:Generator_ColumnVarNameInTable="columnseccion" msprop:Generator_ColumnPropNameInRow="seccion" msprop:Generator_ColumnPropNameInTable="seccionColumn" msprop:Generator_UserColumnName="seccion" type="xs:string" minOccurs="0" />
+              <xs:element name="anio" msprop:Generator_ColumnVarNameInTable="columnanio" msprop:Generator_ColumnPropNameInRow="anio" msprop:Generator_ColumnPropNameInTable="anioColumn" msprop:Generator_UserColumnName="anio" type="xs:string" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>

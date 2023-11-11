@@ -26,9 +26,7 @@ C:\Users\ADMIN\Desktop\Sistema Escolar\SGE\bin\Debug\CrystalDecisions.ReportAppS
 C:\Users\ADMIN\Desktop\Sistema Escolar\SGE\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
 C:\Users\ADMIN\Desktop\Sistema Escolar\SGE\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
 C:\Users\ADMIN\Desktop\Sistema Escolar\SGE\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
-C:\Users\ADMIN\Desktop\Sistema Escolar\SGE\bin\Debug\AxShockwaveFlashObjects.dll
 C:\Users\ADMIN\Desktop\Sistema Escolar\SGE\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
-C:\Users\ADMIN\Desktop\Sistema Escolar\SGE\bin\Debug\ShockwaveFlashObjects.dll
 C:\Users\ADMIN\Desktop\Sistema Escolar\SGE\bin\Debug\stdole.dll
 C:\Users\ADMIN\Desktop\Sistema Escolar\SGE\bin\Debug\DataManager.pdb
 C:\Users\ADMIN\Desktop\Sistema Escolar\SGE\bin\Debug\General.pdb

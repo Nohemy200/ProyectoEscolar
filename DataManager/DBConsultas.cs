@@ -28,6 +28,57 @@ namespace DataManager
 
         }
 
+        public static DataTable REPORTE_NOTAS(int idGrado, int idSeccion, string anio)
+        {
+            DataTable Resultado = new DataTable();
+            String Sentencia = @"SELECT 
+                                    a.idalumno, 
+                                    a.nie, 
+                                    CONCAT(a.nombres, ' ', a.apellidos) AS nombres,
+                                    mt.idmatricula,
+                                    anio,
+                                    g.grado,
+                                    s.seccion,
+                                    c.ciclo,
+                                    ma.idmateria,
+                                    ma.materia,
+                                CASE WHEN MAX(CASE WHEN p.idperiodo = 1 THEN n.nota END) = 0 THEN NULL ELSE MAX(CASE WHEN p.idperiodo = 1 THEN n.nota END) END AS P1,
+                                CASE WHEN MAX(CASE WHEN p.idperiodo = 2 THEN n.nota END) = 0 THEN NULL ELSE MAX(CASE WHEN p.idperiodo = 2 THEN n.nota END) END AS P2,
+                                CASE WHEN MAX(CASE WHEN p.idperiodo = 3 THEN n.nota END) = 0 THEN NULL ELSE MAX(CASE WHEN p.idperiodo = 3 THEN n.nota END) END AS P3,
+                                CASE WHEN COUNT(CASE WHEN n.nota = 0 THEN 1 ELSE NULL END) > 0 THEN NULL ELSE AVG(n.nota) END AS NF,
+                                CASE WHEN COUNT(CASE WHEN n.nota = 0 THEN 1 ELSE NULL END) > 0 THEN NULL
+                                        WHEN AVG(n.nota) >= 6 THEN 'Aprobado'
+                                        ELSE 'Reprobado'
+                                END AS Estado                                    
+                                FROM 
+                                    matriculas mt
+                                    JOIN notas n ON mt.idmatricula = n.idmatricula
+                                    JOIN materias ma ON n.idmateria = ma.idmateria
+                                    JOIN periodos p ON n.idperiodo = p.idperiodo
+                                    JOIN alumnos a ON mt.idalumno = a.idalumno
+                                    JOIN grados g ON g.idgrado = mt.idgrado
+                                    JOIN secciones s ON s.idseccion = mt.idseccion
+                                    JOIN ciclos c ON c.idgrado = g.idgrado
+                                WHERE 
+                                    mt.idgrado = " + idGrado + @"
+                                    AND mt.idseccion = " + idSeccion + @"
+                                    AND anio = '" + anio + @"'
+                                GROUP BY 
+                                    a.idalumno, a.nie, nombres, mt.idmatricula, anio, g.grado, s.seccion, c.ciclo, ma.idmateria, ma.materia
+                                ORDER BY 
+                                    a.idalumno, ma.idmateria, mt.idmatricula, anio, g.grado, s.seccion, c.ciclo;";
+            DBOperacion Consultor = new DBOperacion();
+            try
+            {
+                Resultado = Consultor.Consultar(Sentencia);
+            }
+            catch (Exception)
+            {
+                Resultado = new DataTable();
+            }
+            return Resultado;
+        }
+
         public static DataTable BUSCAR_MATERIAS_POR_ALUMNO(String nie)
         {
             DataTable Resultado = new DataTable();
@@ -124,7 +175,7 @@ namespace DataManager
         {
             DataTable Resultado = new DataTable();
             String Sentencia = @"SELECT a.idalumno, CONCAT(a.nombres, ' ', a.apellidos) nombres, ma.idmateria, ma.materia, mt.idmatricula, anio, idnota, n.nota, p.idperiodo, p.periodo 
-                                 FROM matriculas mt, notas n, materias ma, periodos p, alumnos a
+                                FROM matriculas mt, notas n, materias ma, periodos p, alumnos a
                                 WHERE mt.idmatricula = n.idmatricula
                                 AND a.idalumno = mt.idalumno
                                 AND n.idmateria = ma.idmateria
@@ -679,11 +730,19 @@ WHERE idgrado = " + idgrado + " AND idmateria = " + idmateria + ";";
         }
 
 
-        public static DataTable REPORTE_MATRICULAS()
+        public static DataTable REPORTE_MATRICULAS(int idPeriodo, String anio, int idGrado)
         {
             DataTable Resultado = new DataTable();
-            String Sentencia = @" SELECT a.idmatricula, b.idgrado, b.grado, c.idalumno, c.nombres, c.apellidos FROM matriculas a,grados b, alumnos c 
-            where a.idgrado = b.idgrado  and a.idalumno = c.idalumno order by idmatricula;;;";
+            String Sentencia = @"SELECT m.idmatricula, e.estado, g.grado, a.nie, CONCAT (a.nombres, a.apellidos) as nombres, c.ciclo, s.seccion, m.anio
+                                FROM matriculas m
+                                INNER JOIN grados g ON m.idgrado = g.idgrado
+                                INNER JOIN alumnos a ON m.idalumno = a.idalumno
+                                INNER JOIN secciones s ON m.idseccion = s.idseccion AND s.idgrado = g.idgrado
+                                INNER JOIN ciclos c ON c.idgrado = g.idgrado
+                                INNER JOIN estado e ON a.idestado = e.idestado
+                                INNER JOIN periodos p ON p.idperiodo = " + idPeriodo + @"
+                                WHERE m.anio = '" + anio + @"'
+                                AND g.idgrado = " + idGrado + ";";
             DBOperacion Consultor = new DBOperacion();
             try
             {

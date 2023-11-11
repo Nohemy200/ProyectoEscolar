@@ -314,7 +314,7 @@ namespace Matriculas.GUI
             this.btnCancelar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCancelar.Location = new System.Drawing.Point(157, 379);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(117, 35);
+            this.btnCancelar.Size = new System.Drawing.Size(114, 33);
             this.btnCancelar.TabIndex = 92;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -329,8 +329,8 @@ namespace Matriculas.GUI
             this.btnGuardar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnGuardar.Location = new System.Drawing.Point(10, 379);
             this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(104, 35);
-            this.btnGuardar.TabIndex = 91;
+            this.btnGuardar.Size = new System.Drawing.Size(108, 33);
+            this.btnGuardar.TabIndex = 109;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnGuardar.UseVisualStyleBackColor = false;

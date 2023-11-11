@@ -4,5 +4,8 @@
 
     partial class ReporteMatriculas
     {
+        partial class MatriculasDataTable
+        {
+        }
     }
 }

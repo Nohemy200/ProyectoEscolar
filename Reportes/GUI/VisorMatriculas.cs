@@ -18,7 +18,7 @@ namespace Reportes.GUI
         {
             DataTable Datos = new DataTable();
             Reportes.REP.Matriculas oReporte = new REP.Matriculas();
-            Datos = DataManager.DBConsultas.REPORTE_MATRICULAS();
+            Datos = DataManager.DBConsultas.REPORTE_MATRICULAS(1, "2023", 10);
             oReporte.SetDataSource(Datos);
             crvVisor.ReportSource = oReporte;
         }

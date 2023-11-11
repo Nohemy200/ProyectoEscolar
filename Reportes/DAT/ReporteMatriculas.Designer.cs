@@ -281,15 +281,19 @@ namespace Reportes.DAT {
             
             private global::System.Data.DataColumn columnidmatricula;
             
-            private global::System.Data.DataColumn columnidgrado;
+            private global::System.Data.DataColumn columnestado;
             
             private global::System.Data.DataColumn columngrado;
             
-            private global::System.Data.DataColumn columnidalumno;
+            private global::System.Data.DataColumn columnnie;
             
             private global::System.Data.DataColumn columnnombres;
             
-            private global::System.Data.DataColumn columnapellidos;
+            private global::System.Data.DataColumn columnciclo;
+            
+            private global::System.Data.DataColumn columnseccion;
+            
+            private global::System.Data.DataColumn columnanio;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
@@ -334,9 +338,9 @@ namespace Reportes.DAT {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public global::System.Data.DataColumn idgradoColumn {
+            public global::System.Data.DataColumn estadoColumn {
                 get {
-                    return this.columnidgrado;
+                    return this.columnestado;
                 }
             }
             
@@ -350,9 +354,9 @@ namespace Reportes.DAT {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public global::System.Data.DataColumn idalumnoColumn {
+            public global::System.Data.DataColumn nieColumn {
                 get {
-                    return this.columnidalumno;
+                    return this.columnnie;
                 }
             }
             
@@ -366,9 +370,25 @@ namespace Reportes.DAT {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public global::System.Data.DataColumn apellidosColumn {
+            public global::System.Data.DataColumn cicloColumn {
                 get {
-                    return this.columnapellidos;
+                    return this.columnciclo;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn seccionColumn {
+                get {
+                    return this.columnseccion;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn anioColumn {
+                get {
+                    return this.columnanio;
                 }
             }
             
@@ -409,15 +429,17 @@ namespace Reportes.DAT {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public MatriculasRow AddMatriculasRow(string idmatricula, string idgrado, string grado, string idalumno, string nombres, string apellidos) {
+            public MatriculasRow AddMatriculasRow(string idmatricula, string estado, string grado, string nie, string nombres, string ciclo, string seccion, string anio) {
                 MatriculasRow rowMatriculasRow = ((MatriculasRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         idmatricula,
-                        idgrado,
+                        estado,
                         grado,
-                        idalumno,
+                        nie,
                         nombres,
-                        apellidos};
+                        ciclo,
+                        seccion,
+                        anio};
                 rowMatriculasRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowMatriculasRow);
                 return rowMatriculasRow;
@@ -441,11 +463,13 @@ namespace Reportes.DAT {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             internal void InitVars() {
                 this.columnidmatricula = base.Columns["idmatricula"];
-                this.columnidgrado = base.Columns["idgrado"];
+                this.columnestado = base.Columns["estado"];
                 this.columngrado = base.Columns["grado"];
-                this.columnidalumno = base.Columns["idalumno"];
+                this.columnnie = base.Columns["nie"];
                 this.columnnombres = base.Columns["nombres"];
-                this.columnapellidos = base.Columns["apellidos"];
+                this.columnciclo = base.Columns["ciclo"];
+                this.columnseccion = base.Columns["seccion"];
+                this.columnanio = base.Columns["anio"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -453,20 +477,24 @@ namespace Reportes.DAT {
             private void InitClass() {
                 this.columnidmatricula = new global::System.Data.DataColumn("idmatricula", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnidmatricula);
-                this.columnidgrado = new global::System.Data.DataColumn("idgrado", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnidgrado);
+                this.columnestado = new global::System.Data.DataColumn("estado", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnestado);
                 this.columngrado = new global::System.Data.DataColumn("grado", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columngrado);
-                this.columnidalumno = new global::System.Data.DataColumn("idalumno", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnidalumno);
+                this.columnnie = new global::System.Data.DataColumn("nie", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnnie);
                 this.columnnombres = new global::System.Data.DataColumn("nombres", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnnombres);
-                this.columnapellidos = new global::System.Data.DataColumn("apellidos", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnapellidos);
+                this.columnciclo = new global::System.Data.DataColumn("ciclo", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnciclo);
+                this.columnseccion = new global::System.Data.DataColumn("seccion", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnseccion);
+                this.columnanio = new global::System.Data.DataColumn("anio", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnanio);
                 this.columnidmatricula.Caption = "DataColumn1";
-                this.columnidgrado.Caption = "DataColumn1";
+                this.columnestado.Caption = "DataColumn1";
                 this.columngrado.Caption = "DataColumn1";
-                this.columnidalumno.Caption = "DataColumn1";
+                this.columnnie.Caption = "DataColumn1";
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -625,17 +653,17 @@ namespace Reportes.DAT {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public string idgrado {
+            public string estado {
                 get {
                     try {
-                        return ((string)(this[this.tableMatriculas.idgradoColumn]));
+                        return ((string)(this[this.tableMatriculas.estadoColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("El valor de la columna \'idgrado\' de la tabla \'Matriculas\' es DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("El valor de la columna \'estado\' de la tabla \'Matriculas\' es DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableMatriculas.idgradoColumn] = value;
+                    this[this.tableMatriculas.estadoColumn] = value;
                 }
             }
             
@@ -657,17 +685,17 @@ namespace Reportes.DAT {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public string idalumno {
+            public string nie {
                 get {
                     try {
-                        return ((string)(this[this.tableMatriculas.idalumnoColumn]));
+                        return ((string)(this[this.tableMatriculas.nieColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("El valor de la columna \'idalumno\' de la tabla \'Matriculas\' es DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("El valor de la columna \'nie\' de la tabla \'Matriculas\' es DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableMatriculas.idalumnoColumn] = value;
+                    this[this.tableMatriculas.nieColumn] = value;
                 }
             }
             
@@ -689,17 +717,49 @@ namespace Reportes.DAT {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public string apellidos {
+            public string ciclo {
                 get {
                     try {
-                        return ((string)(this[this.tableMatriculas.apellidosColumn]));
+                        return ((string)(this[this.tableMatriculas.cicloColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("El valor de la columna \'apellidos\' de la tabla \'Matriculas\' es DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("El valor de la columna \'ciclo\' de la tabla \'Matriculas\' es DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableMatriculas.apellidosColumn] = value;
+                    this[this.tableMatriculas.cicloColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public string seccion {
+                get {
+                    try {
+                        return ((string)(this[this.tableMatriculas.seccionColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("El valor de la columna \'seccion\' de la tabla \'Matriculas\' es DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableMatriculas.seccionColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public string anio {
+                get {
+                    try {
+                        return ((string)(this[this.tableMatriculas.anioColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("El valor de la columna \'anio\' de la tabla \'Matriculas\' es DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableMatriculas.anioColumn] = value;
                 }
             }
             
@@ -717,14 +777,14 @@ namespace Reportes.DAT {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public bool IsidgradoNull() {
-                return this.IsNull(this.tableMatriculas.idgradoColumn);
+            public bool IsestadoNull() {
+                return this.IsNull(this.tableMatriculas.estadoColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public void SetidgradoNull() {
-                this[this.tableMatriculas.idgradoColumn] = global::System.Convert.DBNull;
+            public void SetestadoNull() {
+                this[this.tableMatriculas.estadoColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -741,14 +801,14 @@ namespace Reportes.DAT {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public bool IsidalumnoNull() {
-                return this.IsNull(this.tableMatriculas.idalumnoColumn);
+            public bool IsnieNull() {
+                return this.IsNull(this.tableMatriculas.nieColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public void SetidalumnoNull() {
-                this[this.tableMatriculas.idalumnoColumn] = global::System.Convert.DBNull;
+            public void SetnieNull() {
+                this[this.tableMatriculas.nieColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -765,14 +825,38 @@ namespace Reportes.DAT {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public bool IsapellidosNull() {
-                return this.IsNull(this.tableMatriculas.apellidosColumn);
+            public bool IscicloNull() {
+                return this.IsNull(this.tableMatriculas.cicloColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public void SetapellidosNull() {
-                this[this.tableMatriculas.apellidosColumn] = global::System.Convert.DBNull;
+            public void SetcicloNull() {
+                this[this.tableMatriculas.cicloColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public bool IsseccionNull() {
+                return this.IsNull(this.tableMatriculas.seccionColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public void SetseccionNull() {
+                this[this.tableMatriculas.seccionColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public bool IsanioNull() {
+                return this.IsNull(this.tableMatriculas.anioColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public void SetanioNull() {
+                this[this.tableMatriculas.anioColumn] = global::System.Convert.DBNull;
             }
         }
         

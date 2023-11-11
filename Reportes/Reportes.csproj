@@ -79,6 +79,20 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ReporteMatriculas.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DAT\ReporteNotas.cs">
+      <DependentUpon>ReporteNotas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DAT\ReporteNotas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReporteNotas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\VisorAlumnos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +116,12 @@
     </Compile>
     <Compile Include="GUI\VisorMatriculas.Designer.cs">
       <DependentUpon>VisorMatriculas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\VisorNotas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\VisorNotas.Designer.cs">
+      <DependentUpon>VisorNotas.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="REP\Alumnos.cs">
@@ -128,11 +148,26 @@
       <DependentUpon>Matriculas.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="REP\Notas.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Notas.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REP\RepoteUnidoNotas.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RepoteUnidoNotas.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CLS\" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="GUI\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\VisorAlumnos.resx">
       <DependentUpon>VisorAlumnos.cs</DependentUpon>
     </EmbeddedResource>
@@ -144,6 +179,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\VisorMatriculas.resx">
       <DependentUpon>VisorMatriculas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\VisorNotas.resx">
+      <DependentUpon>VisorNotas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="REP\Alumnos.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
@@ -160,6 +198,14 @@
     <EmbeddedResource Include="REP\Matriculas.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>Matriculas.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REP\Notas.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Notas.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REP\RepoteUnidoNotas.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RepoteUnidoNotas.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -210,11 +256,26 @@
     <None Include="DAT\ReporteMatriculas.xss">
       <DependentUpon>ReporteMatriculas.xsd</DependentUpon>
     </None>
+    <None Include="DAT\ReporteNotas.xsc">
+      <DependentUpon>ReporteNotas.xsd</DependentUpon>
+    </None>
+    <None Include="DAT\ReporteNotas.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReporteNotas.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DAT\ReporteNotas.xss">
+      <DependentUpon>ReporteNotas.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DataManager\DataManager.csproj">
       <Project>{f8971654-8c38-4e52-9d8b-c6095bfea6b4}</Project>
       <Name>DataManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\General\General.csproj">
+      <Project>{B286DA9B-DB7A-4C01-BDB8-C2D15C83D258}</Project>
+      <Name>General</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

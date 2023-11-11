@@ -35,7 +35,6 @@ C:\Users\Dell\Downloads\Sistema Escolar\Reportes\obj\Debug\Reportes.GUI.VisorAlu
 C:\Users\Dell\Downloads\Sistema Escolar\Reportes\obj\Debug\Reportes.GUI.VisorMatriculas.resources
 C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\bin\Debug\Reportes.dll
 C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\bin\Debug\Reportes.pdb
-C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\bin\Debug\AxShockwaveFlashObjects.dll
 C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
 C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\bin\Debug\CrystalDecisions.ReportSource.dll
 C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\bin\Debug\CrystalDecisions.Shared.dll
@@ -68,3 +67,7 @@ C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\obj\Debug\Reportes.csproj.CoreCo
 C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\obj\Debug\Reportes.csproj.CopyComplete
 C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\obj\Debug\Reportes.dll
 C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\obj\Debug\Reportes.pdb
+C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\bin\Debug\General.dll
+C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\bin\Debug\General.pdb
+C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\obj\Debug\Reportes.GUI.Form1.resources
+C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\obj\Debug\Reportes.GUI.VisorNotas.resources

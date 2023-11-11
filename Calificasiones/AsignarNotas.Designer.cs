@@ -29,6 +29,8 @@ namespace Calificasiones
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AsignarNotas));
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.combAñoLectivo = new System.Windows.Forms.ComboBox();
@@ -186,6 +188,10 @@ namespace Calificasiones
             // 
             this.dgvDatos.AllowUserToAddRows = false;
             this.dgvDatos.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.dgvDatos.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgvDatos.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.dgvDatos.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvDatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvDatos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.idalumno,
@@ -198,10 +204,10 @@ namespace Calificasiones
             this.nota,
             this.idperiodo,
             this.periodo});
-            this.dgvDatos.Location = new System.Drawing.Point(12, 341);
+            this.dgvDatos.Location = new System.Drawing.Point(0, 341);
             this.dgvDatos.Name = "dgvDatos";
             this.dgvDatos.RowHeadersVisible = false;
-            this.dgvDatos.Size = new System.Drawing.Size(944, 294);
+            this.dgvDatos.Size = new System.Drawing.Size(968, 294);
             this.dgvDatos.TabIndex = 106;
             this.dgvDatos.Visible = false;
             // 
@@ -284,20 +290,26 @@ namespace Calificasiones
             // 
             // btnGuardar
             // 
-            this.btnGuardar.Location = new System.Drawing.Point(881, 644);
+            this.btnGuardar.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnGuardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuardar.Image = ((System.Drawing.Image)(resources.GetObject("btnGuardar.Image")));
+            this.btnGuardar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnGuardar.Location = new System.Drawing.Point(853, 641);
             this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(75, 23);
+            this.btnGuardar.Size = new System.Drawing.Size(103, 36);
             this.btnGuardar.TabIndex = 108;
             this.btnGuardar.Tag = "";
             this.btnGuardar.Text = "Guardar";
-            this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnGuardar.UseVisualStyleBackColor = false;
             this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // AsignarNotas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(968, 679);
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.ClientSize = new System.Drawing.Size(968, 685);
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.dgvDatos);
             this.Controls.Add(this.combMateria);
@@ -312,6 +324,7 @@ namespace Calificasiones
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AsignarNotas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AsignarNotas";

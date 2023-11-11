@@ -296,5 +296,11 @@ namespace SGE.GUI
             Asistencia.GUI.AsistenciaGestion asistencia = new Asistencia.GUI.AsistenciaGestion();
             asistencia.ShowDialog();
         }
+
+        private void reporteNotasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Reportes.GUI.VisorNotas f = new Reportes.GUI.VisorNotas();
+            f.ShowDialog();
+        }
     }
 }

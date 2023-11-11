@@ -59,5 +59,18 @@ namespace SGE.GUI
                 MessageBox.Show("Debe llenar los campos Usuario y Contraseña");
             }
         }
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+                LimpiarCampos();
+        }
+
+        private void LimpiarCampos()
+        {
+            txtUsuario.Text = string.Empty;
+            txtClave.Text = string.Empty;
+            // Coloca el foco en el primer TextBox después de limpiar los campos
+            txtUsuario.Focus();
+        }
     }
 }

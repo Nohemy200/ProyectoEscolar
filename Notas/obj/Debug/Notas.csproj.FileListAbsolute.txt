@@ -17,3 +17,4 @@ C:\Users\ADMIN\Desktop\Sistema Escolar\Notas\obj\Debug\Notas.csproj.CoreCompileI
 C:\Users\ADMIN\Desktop\Sistema Escolar\Notas\obj\Debug\Notas.csproj.CopyComplete
 C:\Users\ADMIN\Desktop\Sistema Escolar\Notas\obj\Debug\Notas.dll
 C:\Users\ADMIN\Desktop\Sistema Escolar\Notas\obj\Debug\Notas.pdb
+C:\Users\ADMIN\Desktop\Sistema Escolar\Notas\obj\Debug\Notas.Properties.Resources.resources
