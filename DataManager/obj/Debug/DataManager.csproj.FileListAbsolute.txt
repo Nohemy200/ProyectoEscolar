@@ -16,3 +16,12 @@ C:\Users\ADMIN\Desktop\Sistema Escolar\DataManager\obj\Debug\DataManager.csproj.
 C:\Users\ADMIN\Desktop\Sistema Escolar\DataManager\obj\Debug\DataManager.csproj.CopyComplete
 C:\Users\ADMIN\Desktop\Sistema Escolar\DataManager\obj\Debug\DataManager.dll
 C:\Users\ADMIN\Desktop\Sistema Escolar\DataManager\obj\Debug\DataManager.pdb
+C:\Users\fruiz\OneDrive\Escritorio\Sistema Escolar\DataManager\bin\Debug\DataManager.dll
+C:\Users\fruiz\OneDrive\Escritorio\Sistema Escolar\DataManager\bin\Debug\DataManager.pdb
+C:\Users\fruiz\OneDrive\Escritorio\Sistema Escolar\DataManager\bin\Debug\MySql.Data.dll
+C:\Users\fruiz\OneDrive\Escritorio\Sistema Escolar\DataManager\bin\Debug\MySql.Data.xml
+C:\Users\fruiz\OneDrive\Escritorio\Sistema Escolar\DataManager\obj\Debug\DataManager.csproj.AssemblyReference.cache
+C:\Users\fruiz\OneDrive\Escritorio\Sistema Escolar\DataManager\obj\Debug\DataManager.csproj.CoreCompileInputs.cache
+C:\Users\fruiz\OneDrive\Escritorio\Sistema Escolar\DataManager\obj\Debug\DataManager.csproj.CopyComplete
+C:\Users\fruiz\OneDrive\Escritorio\Sistema Escolar\DataManager\obj\Debug\DataManager.dll
+C:\Users\fruiz\OneDrive\Escritorio\Sistema Escolar\DataManager\obj\Debug\DataManager.pdb

@@ -303,6 +303,8 @@ namespace Reportes.DAT {
             
             private global::System.Data.DataColumn columnanio;
             
+            private global::System.Data.DataColumn columnidAlumno;
+            
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public notasDataTable() {
@@ -434,6 +436,14 @@ namespace Reportes.DAT {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn idAlumnoColumn {
+                get {
+                    return this.columnidAlumno;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
             public int Count {
                 get {
@@ -469,7 +479,7 @@ namespace Reportes.DAT {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public notasRow AddnotasRow(string materia, string grado, string seccion, string ciclo, string nie, string nombres, string Estado, string P1, string P2, string P3, string NF, string anio) {
+            public notasRow AddnotasRow(string materia, string grado, string seccion, string ciclo, string nie, string nombres, string Estado, string P1, string P2, string P3, string NF, string anio, string idAlumno) {
                 notasRow rownotasRow = ((notasRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         materia,
@@ -483,7 +493,8 @@ namespace Reportes.DAT {
                         P2,
                         P3,
                         NF,
-                        anio};
+                        anio,
+                        idAlumno};
                 rownotasRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rownotasRow);
                 return rownotasRow;
@@ -518,6 +529,7 @@ namespace Reportes.DAT {
                 this.columnP3 = base.Columns["P3"];
                 this.columnNF = base.Columns["NF"];
                 this.columnanio = base.Columns["anio"];
+                this.columnidAlumno = base.Columns["idAlumno"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -547,6 +559,8 @@ namespace Reportes.DAT {
                 base.Columns.Add(this.columnNF);
                 this.columnanio = new global::System.Data.DataColumn("anio", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnanio);
+                this.columnidAlumno = new global::System.Data.DataColumn("idAlumno", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnidAlumno);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -881,6 +895,22 @@ namespace Reportes.DAT {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public string idAlumno {
+                get {
+                    try {
+                        return ((string)(this[this.tablenotas.idAlumnoColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("El valor de la columna \'idAlumno\' de la tabla \'notas\' es DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablenotas.idAlumnoColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public bool IsmateriaNull() {
                 return this.IsNull(this.tablenotas.materiaColumn);
             }
@@ -1021,6 +1051,18 @@ namespace Reportes.DAT {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public void SetanioNull() {
                 this[this.tablenotas.anioColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public bool IsidAlumnoNull() {
+                return this.IsNull(this.tablenotas.idAlumnoColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public void SetidAlumnoNull() {
+                this[this.tablenotas.idAlumnoColumn] = global::System.Convert.DBNull;
             }
         }
         

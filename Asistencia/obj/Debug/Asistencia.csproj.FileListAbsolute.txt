@@ -11,3 +11,16 @@ C:\Users\ADMIN\Desktop\Sistema Escolar\Asistencia\bin\Debug\MySql.Data.dll
 C:\Users\ADMIN\Desktop\Sistema Escolar\Asistencia\bin\Debug\DataManager.pdb
 C:\Users\ADMIN\Desktop\Sistema Escolar\Asistencia\bin\Debug\MySql.Data.xml
 C:\Users\ADMIN\Desktop\Sistema Escolar\Asistencia\obj\Debug\Asistencia.csproj.CopyComplete
+C:\Users\fruiz\OneDrive\Escritorio\Sistema Escolar\Asistencia\bin\Debug\Asistencia.dll
+C:\Users\fruiz\OneDrive\Escritorio\Sistema Escolar\Asistencia\bin\Debug\Asistencia.pdb
+C:\Users\fruiz\OneDrive\Escritorio\Sistema Escolar\Asistencia\bin\Debug\DataManager.dll
+C:\Users\fruiz\OneDrive\Escritorio\Sistema Escolar\Asistencia\bin\Debug\MySql.Data.dll
+C:\Users\fruiz\OneDrive\Escritorio\Sistema Escolar\Asistencia\bin\Debug\DataManager.pdb
+C:\Users\fruiz\OneDrive\Escritorio\Sistema Escolar\Asistencia\bin\Debug\MySql.Data.xml
+C:\Users\fruiz\OneDrive\Escritorio\Sistema Escolar\Asistencia\obj\Debug\Asistencia.csproj.AssemblyReference.cache
+C:\Users\fruiz\OneDrive\Escritorio\Sistema Escolar\Asistencia\obj\Debug\Asistencia.GUI.AsistenciaGestion.resources
+C:\Users\fruiz\OneDrive\Escritorio\Sistema Escolar\Asistencia\obj\Debug\Asistencia.csproj.GenerateResource.cache
+C:\Users\fruiz\OneDrive\Escritorio\Sistema Escolar\Asistencia\obj\Debug\Asistencia.csproj.CoreCompileInputs.cache
+C:\Users\fruiz\OneDrive\Escritorio\Sistema Escolar\Asistencia\obj\Debug\Asistencia.csproj.CopyComplete
+C:\Users\fruiz\OneDrive\Escritorio\Sistema Escolar\Asistencia\obj\Debug\Asistencia.dll
+C:\Users\fruiz\OneDrive\Escritorio\Sistema Escolar\Asistencia\obj\Debug\Asistencia.pdb
