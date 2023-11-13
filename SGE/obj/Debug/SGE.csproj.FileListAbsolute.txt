@@ -6,7 +6,6 @@ C:\Users\ADMIN\Desktop\Sistema Escolar\SGE\bin\Debug\SGE.pdb
 C:\Users\ADMIN\Desktop\Sistema Escolar\SGE\bin\Debug\DataManager.dll
 C:\Users\ADMIN\Desktop\Sistema Escolar\SGE\bin\Debug\General.dll
 C:\Users\ADMIN\Desktop\Sistema Escolar\SGE\bin\Debug\Matriculas.dll
-C:\Users\ADMIN\Desktop\Sistema Escolar\SGE\bin\Debug\Notas.dll
 C:\Users\ADMIN\Desktop\Sistema Escolar\SGE\bin\Debug\Reportes.dll
 C:\Users\ADMIN\Desktop\Sistema Escolar\SGE\bin\Debug\SessionManager.dll
 C:\Users\ADMIN\Desktop\Sistema Escolar\SGE\bin\Debug\MySql.Data.dll
@@ -31,7 +30,6 @@ C:\Users\ADMIN\Desktop\Sistema Escolar\SGE\bin\Debug\stdole.dll
 C:\Users\ADMIN\Desktop\Sistema Escolar\SGE\bin\Debug\DataManager.pdb
 C:\Users\ADMIN\Desktop\Sistema Escolar\SGE\bin\Debug\General.pdb
 C:\Users\ADMIN\Desktop\Sistema Escolar\SGE\bin\Debug\Matriculas.pdb
-C:\Users\ADMIN\Desktop\Sistema Escolar\SGE\bin\Debug\Notas.pdb
 C:\Users\ADMIN\Desktop\Sistema Escolar\SGE\bin\Debug\Reportes.pdb
 C:\Users\ADMIN\Desktop\Sistema Escolar\SGE\bin\Debug\SessionManager.pdb
 C:\Users\ADMIN\Desktop\Sistema Escolar\SGE\bin\Debug\MySql.Data.xml

@@ -158,10 +158,6 @@
       <Project>{b3b54800-1b27-4dad-8cf3-01ea392a8e40}</Project>
       <Name>Matriculas</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Notas\Notas.csproj">
-      <Project>{72cdf687-95dc-4082-b4c0-7d2614481b83}</Project>
-      <Name>Notas</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Reportes\Reportes.csproj">
       <Project>{d528af95-601a-446e-a298-d6f00a39ee0a}</Project>
       <Name>Reportes</Name>

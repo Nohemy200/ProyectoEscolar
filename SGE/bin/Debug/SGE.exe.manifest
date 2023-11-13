@@ -295,14 +295,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Matriculas.dll" size="225792">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Matriculas.dll" size="228864">
       <assemblyIdentity name="Matriculas" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>udrHjR5fK6qTjKr3Qjx24P7Zi3SSqfTKypMKBqDWWtQ=</dsig:DigestValue>
+        <dsig:DigestValue>1BbrGRpjkPjXKFe5+IiC6Y//0I+Ff2yDXt7PTedAKww=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -319,26 +319,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Notas.dll" size="564224">
-      <assemblyIdentity name="Notas" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>o2kmf2HeOfjL568o4t2FIBaMCjCGYOSQIOlTGZkUlSg=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Reportes.dll" size="841216">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Reportes.dll" size="616448">
       <assemblyIdentity name="Reportes" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>SgIx1afBtrur9mKjSzMOupLA+UcQz1WAcQnztdc91QU=</dsig:DigestValue>
+        <dsig:DigestValue>HRCJGeOlCnB7DcnLsyld1Zh4lBUwRE7EYzZvmWR9his=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -355,14 +343,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SGE.exe" size="1983968">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SGE.exe" size="1981920">
       <assemblyIdentity name="SGE" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>dpr8BCE6hwYOmYWtJ3ED6sW7w8i/BwvY+HGhxoAnFbQ=</dsig:DigestValue>
+        <dsig:DigestValue>miNbJN3eWFcR4S5zLxoBD7aVUZN4mfOLZOZ0NVNqqF4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

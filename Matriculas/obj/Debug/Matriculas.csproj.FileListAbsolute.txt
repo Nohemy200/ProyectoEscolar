@@ -19,3 +19,4 @@ C:\Users\ADMIN\Desktop\Sistema Escolar\Matriculas\obj\Debug\Matriculas.dll
 C:\Users\ADMIN\Desktop\Sistema Escolar\Matriculas\obj\Debug\Matriculas.pdb
 C:\Users\ADMIN\Desktop\Sistema Escolar\Matriculas\bin\Debug\Calificasiones.dll
 C:\Users\ADMIN\Desktop\Sistema Escolar\Matriculas\bin\Debug\Calificasiones.pdb
+C:\Users\ADMIN\Desktop\Sistema Escolar\Matriculas\obj\Debug\Matriculas.GUI.FormReport.resources

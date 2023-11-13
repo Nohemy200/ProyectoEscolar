@@ -127,12 +127,6 @@ namespace SGE.GUI
             }
         }
 
-        private void reporteAulasToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Reportes.GUI.Aulas f = new Reportes.GUI.Aulas();
-            f.ShowDialog();
-        }
-
         private void gestionDeAlumnosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             General.GUI.AlumnoGestion f = new General.GUI.AlumnoGestion();
@@ -169,12 +163,7 @@ namespace SGE.GUI
 
         }
 
-        private void asignarNotaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Notas.GUI.AgregarNotas f = new Notas.GUI.AgregarNotas();
-            f.MdiParent = this;
-            f.Show();
-        }
+        
 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -190,12 +179,6 @@ namespace SGE.GUI
             
         }
 
-        private void modificarNotasToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Notas.GUI.ModificarNotas f = new Notas.GUI.ModificarNotas();
-            f.MdiParent = this;
-            f.Show();
-        }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
@@ -265,18 +248,6 @@ namespace SGE.GUI
             Matriculas.GUI.BuscarMatricula f = new Matriculas.GUI.BuscarMatricula();
             f.MdiParent = this;
             f.Show();
-        }
-
-        private void reporteAlumnosToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Reportes.GUI.VisorAlumnos f = new Reportes.GUI.VisorAlumnos();
-            f.ShowDialog();
-        }
-
-        private void reporteAlumnosActivosToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Reportes.GUI.VisorAlumnosActivos f = new Reportes.GUI.VisorAlumnosActivos();
-            f.ShowDialog();
         }
 
         private void reporteMatriculaToolStripMenuItem_Click(object sender, EventArgs e)

@@ -16,14 +16,14 @@ namespace Reportes.REP {
     using CrystalDecisions.CrystalReports.Engine;
     
     
-    public class Aulas : ReportClass {
+    public class ReporteUnidoNotas : ReportClass {
         
-        public Aulas() {
+        public ReporteUnidoNotas() {
         }
         
         public override string ResourceName {
             get {
-                return "Aulas.rpt";
+                return "ReporteUnidoNotas.rpt";
             }
             set {
                 // Do nothing
@@ -41,7 +41,7 @@ namespace Reportes.REP {
         
         public override string FullResourceName {
             get {
-                return "Reportes.REP.Aulas.rpt";
+                return "Reportes.REP.ReporteUnidoNotas.rpt";
             }
             set {
                 // Do nothing
@@ -87,12 +87,20 @@ namespace Reportes.REP {
                 return this.ReportDefinition.Sections[4];
             }
         }
+        
+        [Browsable(false)]
+        [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
+        public CrystalDecisions.Shared.IParameterField Parameter_Nie {
+            get {
+                return this.DataDefinition.ParameterFields[0];
+            }
+        }
     }
     
     [System.Drawing.ToolboxBitmapAttribute(typeof(CrystalDecisions.Shared.ExportOptions), "report.bmp")]
-    public class CachedAulas : Component, ICachedReport {
+    public class CachedReporteUnidoNotas : Component, ICachedReport {
         
-        public CachedAulas() {
+        public CachedReporteUnidoNotas() {
         }
         
         [Browsable(false)]
@@ -129,7 +137,7 @@ namespace Reportes.REP {
         }
         
         public virtual CrystalDecisions.CrystalReports.Engine.ReportDocument CreateReport() {
-            Aulas rpt = new Aulas();
+            ReporteUnidoNotas rpt = new ReporteUnidoNotas();
             rpt.Site = this.Site;
             return rpt;
         }

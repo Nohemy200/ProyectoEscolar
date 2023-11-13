@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Reportes.GUI
+namespace Matriculas.GUI
 {
-    public partial class Form1 : Form
+    public partial class FormReport : Form
     {
-        public Form1()
+        public FormReport()
         {
             InitializeComponent();
+        }
+
+        private void FormReport_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

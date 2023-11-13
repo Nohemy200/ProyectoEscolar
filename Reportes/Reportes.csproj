@@ -50,27 +50,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DAT\Aulas.cs">
-      <DependentUpon>Aulas.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="DAT\Aulas.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Aulas.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="DAT\ReporteAlumnos.cs">
-      <DependentUpon>ReporteAlumnos.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="DAT\ReporteAlumnos.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ReporteAlumnos.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="DAT\ReporteAlumnosActivos.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ReporteAlumnosActivos.xsd</DependentUpon>
-    </Compile>
     <Compile Include="DAT\ReporteMatriculas.cs">
       <DependentUpon>ReporteMatriculas.xsd</DependentUpon>
     </Compile>
@@ -87,30 +66,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ReporteNotas.xsd</DependentUpon>
     </Compile>
-    <Compile Include="GUI\Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GUI\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GUI\VisorAlumnos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GUI\VisorAlumnos.Designer.cs">
-      <DependentUpon>VisorAlumnos.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GUI\Aulas.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GUI\Aulas.Designer.cs">
-      <DependentUpon>Aulas.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GUI\VisorAlumnosActivos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GUI\VisorAlumnosActivos.Designer.cs">
-      <DependentUpon>VisorAlumnosActivos.cs</DependentUpon>
-    </Compile>
     <Compile Include="GUI\VisorMatriculas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -124,24 +79,6 @@
       <DependentUpon>VisorNotas.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="REP\Alumnos.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Alumnos.rpt</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="REP\AlumnosActivos.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>AlumnosActivos.rpt</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="REP\Aulas.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Aulas.rpt</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
     <Compile Include="REP\Matriculas.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -154,46 +91,20 @@
       <DependentUpon>Notas.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="REP\RepoteUnidoNotas.cs">
+    <Compile Include="REP\ReporteUnidoNotas.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>RepoteUnidoNotas.rpt</DependentUpon>
+      <DependentUpon>ReporteUnidoNotas.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="CLS\" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="GUI\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GUI\VisorAlumnos.resx">
-      <DependentUpon>VisorAlumnos.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GUI\Aulas.resx">
-      <DependentUpon>Aulas.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GUI\VisorAlumnosActivos.resx">
-      <DependentUpon>VisorAlumnosActivos.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="GUI\VisorMatriculas.resx">
       <DependentUpon>VisorMatriculas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\VisorNotas.resx">
       <DependentUpon>VisorNotas.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="REP\Alumnos.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>Alumnos.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="REP\AlumnosActivos.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>AlumnosActivos.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="REP\Aulas.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>Aulas.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="REP\Matriculas.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
@@ -203,48 +114,15 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>Notas.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="REP\RepoteUnidoNotas.rpt">
+    <EmbeddedResource Include="REP\ReporteUnidoNotas.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>RepoteUnidoNotas.cs</LastGenOutput>
+      <LastGenOutput>ReporteUnidoNotas.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="DAT\Aulas.xsc">
-      <DependentUpon>Aulas.xsd</DependentUpon>
-    </None>
-    <None Include="DAT\Aulas.xsd">
-      <SubType>Designer</SubType>
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>Aulas.Designer.cs</LastGenOutput>
-    </None>
-    <None Include="DAT\Aulas.xss">
-      <DependentUpon>Aulas.xsd</DependentUpon>
-    </None>
-    <None Include="DAT\ReporteAlumnos.xsc">
-      <DependentUpon>ReporteAlumnos.xsd</DependentUpon>
-    </None>
-    <None Include="DAT\ReporteAlumnos.xsd">
-      <SubType>Designer</SubType>
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>ReporteAlumnos.Designer.cs</LastGenOutput>
-    </None>
-    <None Include="DAT\ReporteAlumnos.xss">
-      <DependentUpon>ReporteAlumnos.xsd</DependentUpon>
-    </None>
-    <None Include="DAT\ReporteAlumnosActivos.xsc">
-      <DependentUpon>ReporteAlumnosActivos.xsd</DependentUpon>
-    </None>
-    <None Include="DAT\ReporteAlumnosActivos.xsd">
-      <SubType>Designer</SubType>
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>ReporteAlumnosActivos.Designer.cs</LastGenOutput>
-    </None>
-    <None Include="DAT\ReporteAlumnosActivos.xss">
-      <DependentUpon>ReporteAlumnosActivos.xsd</DependentUpon>
-    </None>
     <None Include="DAT\ReporteMatriculas.xsc">
       <DependentUpon>ReporteMatriculas.xsd</DependentUpon>
     </None>

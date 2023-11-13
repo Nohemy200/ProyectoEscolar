@@ -46,19 +46,13 @@ namespace SGE.GUI
             this.gestionDeGradosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gestionDeMateriasYGradosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.reporteAulasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.reporteAlumnosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.reporteAlumnosActivosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reporteMatriculaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reporteNotasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.matriculasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nuevaMatriculaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.buscarMateriasPorAlumnoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.notasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.asignarNotaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.modificarNotasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.asignarNotasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.asistenciaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.verAsistenciaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.lblUsuario = new System.Windows.Forms.ToolStripStatusLabel();
@@ -68,7 +62,6 @@ namespace SGE.GUI
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.bgwConexion = new System.ComponentModel.BackgroundWorker();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.reporteNotasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
             this.SuspendLayout();
@@ -83,7 +76,6 @@ namespace SGE.GUI
             this.reportesToolStripMenuItem,
             this.matriculasToolStripMenuItem,
             this.notasToolStripMenuItem,
-            this.asistenciaToolStripMenuItem,
             this.salirToolStripMenuItem});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
@@ -198,9 +190,6 @@ namespace SGE.GUI
             // reportesToolStripMenuItem
             // 
             this.reportesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.reporteAulasToolStripMenuItem,
-            this.reporteAlumnosToolStripMenuItem,
-            this.reporteAlumnosActivosToolStripMenuItem,
             this.reporteMatriculaToolStripMenuItem,
             this.reporteNotasToolStripMenuItem});
             this.reportesToolStripMenuItem.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -209,33 +198,19 @@ namespace SGE.GUI
             this.reportesToolStripMenuItem.Size = new System.Drawing.Size(149, 59);
             this.reportesToolStripMenuItem.Text = "Reportes";
             // 
-            // reporteAulasToolStripMenuItem
-            // 
-            this.reporteAulasToolStripMenuItem.Name = "reporteAulasToolStripMenuItem";
-            this.reporteAulasToolStripMenuItem.Size = new System.Drawing.Size(278, 22);
-            this.reporteAulasToolStripMenuItem.Text = "Reporte Aulas";
-            this.reporteAulasToolStripMenuItem.Click += new System.EventHandler(this.reporteAulasToolStripMenuItem_Click);
-            // 
-            // reporteAlumnosToolStripMenuItem
-            // 
-            this.reporteAlumnosToolStripMenuItem.Name = "reporteAlumnosToolStripMenuItem";
-            this.reporteAlumnosToolStripMenuItem.Size = new System.Drawing.Size(278, 22);
-            this.reporteAlumnosToolStripMenuItem.Text = "Reporte alumnos";
-            this.reporteAlumnosToolStripMenuItem.Click += new System.EventHandler(this.reporteAlumnosToolStripMenuItem_Click);
-            // 
-            // reporteAlumnosActivosToolStripMenuItem
-            // 
-            this.reporteAlumnosActivosToolStripMenuItem.Name = "reporteAlumnosActivosToolStripMenuItem";
-            this.reporteAlumnosActivosToolStripMenuItem.Size = new System.Drawing.Size(278, 22);
-            this.reporteAlumnosActivosToolStripMenuItem.Text = "Reporte Alumnos Activos";
-            this.reporteAlumnosActivosToolStripMenuItem.Click += new System.EventHandler(this.reporteAlumnosActivosToolStripMenuItem_Click);
-            // 
             // reporteMatriculaToolStripMenuItem
             // 
             this.reporteMatriculaToolStripMenuItem.Name = "reporteMatriculaToolStripMenuItem";
             this.reporteMatriculaToolStripMenuItem.Size = new System.Drawing.Size(278, 22);
             this.reporteMatriculaToolStripMenuItem.Text = "Reporte Matriculas";
             this.reporteMatriculaToolStripMenuItem.Click += new System.EventHandler(this.reporteMatriculaToolStripMenuItem_Click);
+            // 
+            // reporteNotasToolStripMenuItem
+            // 
+            this.reporteNotasToolStripMenuItem.Name = "reporteNotasToolStripMenuItem";
+            this.reporteNotasToolStripMenuItem.Size = new System.Drawing.Size(278, 22);
+            this.reporteNotasToolStripMenuItem.Text = "Reporte Notas";
+            this.reporteNotasToolStripMenuItem.Click += new System.EventHandler(this.reporteNotasToolStripMenuItem_Click);
             // 
             // matriculasToolStripMenuItem
             // 
@@ -265,8 +240,6 @@ namespace SGE.GUI
             // notasToolStripMenuItem
             // 
             this.notasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.asignarNotaToolStripMenuItem,
-            this.modificarNotasToolStripMenuItem,
             this.asignarNotasToolStripMenuItem});
             this.notasToolStripMenuItem.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.notasToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("notasToolStripMenuItem.Image")));
@@ -274,41 +247,12 @@ namespace SGE.GUI
             this.notasToolStripMenuItem.Size = new System.Drawing.Size(122, 59);
             this.notasToolStripMenuItem.Text = "Notas";
             // 
-            // asignarNotaToolStripMenuItem
-            // 
-            this.asignarNotaToolStripMenuItem.Name = "asignarNotaToolStripMenuItem";
-            this.asignarNotaToolStripMenuItem.Size = new System.Drawing.Size(200, 22);
-            this.asignarNotaToolStripMenuItem.Text = "Asignar Nota";
-            this.asignarNotaToolStripMenuItem.Click += new System.EventHandler(this.asignarNotaToolStripMenuItem_Click);
-            // 
-            // modificarNotasToolStripMenuItem
-            // 
-            this.modificarNotasToolStripMenuItem.Name = "modificarNotasToolStripMenuItem";
-            this.modificarNotasToolStripMenuItem.Size = new System.Drawing.Size(200, 22);
-            this.modificarNotasToolStripMenuItem.Text = "Modificar Notas";
-            this.modificarNotasToolStripMenuItem.Click += new System.EventHandler(this.modificarNotasToolStripMenuItem_Click);
-            // 
             // asignarNotasToolStripMenuItem
             // 
             this.asignarNotasToolStripMenuItem.Name = "asignarNotasToolStripMenuItem";
-            this.asignarNotasToolStripMenuItem.Size = new System.Drawing.Size(200, 22);
+            this.asignarNotasToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.asignarNotasToolStripMenuItem.Text = "Calificasiones";
             this.asignarNotasToolStripMenuItem.Click += new System.EventHandler(this.asignarNotasToolStripMenuItem_Click);
-            // 
-            // asistenciaToolStripMenuItem
-            // 
-            this.asistenciaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.verAsistenciaToolStripMenuItem});
-            this.asistenciaToolStripMenuItem.Name = "asistenciaToolStripMenuItem";
-            this.asistenciaToolStripMenuItem.Size = new System.Drawing.Size(95, 59);
-            this.asistenciaToolStripMenuItem.Text = "Asistencia";
-            // 
-            // verAsistenciaToolStripMenuItem
-            // 
-            this.verAsistenciaToolStripMenuItem.Name = "verAsistenciaToolStripMenuItem";
-            this.verAsistenciaToolStripMenuItem.Size = new System.Drawing.Size(178, 26);
-            this.verAsistenciaToolStripMenuItem.Text = "Ver asistencia";
-            this.verAsistenciaToolStripMenuItem.Click += new System.EventHandler(this.verAsistenciaToolStripMenuItem_Click);
             // 
             // salirToolStripMenuItem
             // 
@@ -385,13 +329,6 @@ namespace SGE.GUI
             this.timer1.Interval = 3000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // reporteNotasToolStripMenuItem
-            // 
-            this.reporteNotasToolStripMenuItem.Name = "reporteNotasToolStripMenuItem";
-            this.reporteNotasToolStripMenuItem.Size = new System.Drawing.Size(278, 22);
-            this.reporteNotasToolStripMenuItem.Text = "Reporte Notas";
-            this.reporteNotasToolStripMenuItem.Click += new System.EventHandler(this.reporteNotasToolStripMenuItem_Click);
-            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -434,7 +371,6 @@ namespace SGE.GUI
         private System.Windows.Forms.ToolStripMenuItem gestionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem gestionEspecialidadesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem reportesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem reporteAulasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem gestionDeAlumnosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem gestionDeEncargadosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem gestionDeDocentesToolStripMenuItem;
@@ -442,10 +378,8 @@ namespace SGE.GUI
         private System.Windows.Forms.ToolStripMenuItem matriculasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem nuevaMatriculaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem notasToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem asignarNotaToolStripMenuItem;
         private System.Windows.Forms.ImageList imageList1;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem modificarNotasToolStripMenuItem;
         private System.ComponentModel.BackgroundWorker bgwConexion;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.ToolStripStatusLabel lblConConexion;
@@ -453,12 +387,8 @@ namespace SGE.GUI
         private System.Windows.Forms.ToolStripMenuItem gestionDeMateriasYGradosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem gestionDeUsuariosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem buscarMateriasPorAlumnoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem reporteAlumnosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem reporteAlumnosActivosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem reporteMatriculaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem asignarNotasToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem asistenciaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem verAsistenciaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem reporteNotasToolStripMenuItem;
     }
 }

@@ -49,6 +49,12 @@
     <Compile Include="GUI\BuscarMatricula.Designer.cs">
       <DependentUpon>BuscarMatricula.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\FormReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\FormReport.Designer.cs">
+      <DependentUpon>FormReport.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\NuevaMatricula.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,6 +71,9 @@
   <ItemGroup>
     <EmbeddedResource Include="GUI\BuscarMatricula.resx">
       <DependentUpon>BuscarMatricula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\FormReport.resx">
+      <DependentUpon>FormReport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\NuevaMatricula.resx">
       <DependentUpon>NuevaMatricula.cs</DependentUpon>

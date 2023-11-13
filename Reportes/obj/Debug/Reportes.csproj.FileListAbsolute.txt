@@ -58,9 +58,6 @@ C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\bin\Debug\CrystalDecisions.Repor
 C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\bin\Debug\DataManager.pdb
 C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\bin\Debug\MySql.Data.xml
 C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\obj\Debug\Reportes.csproj.AssemblyReference.cache
-C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\obj\Debug\Reportes.GUI.VisorAlumnos.resources
-C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\obj\Debug\Reportes.GUI.Aulas.resources
-C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\obj\Debug\Reportes.GUI.VisorAlumnosActivos.resources
 C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\obj\Debug\Reportes.GUI.VisorMatriculas.resources
 C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\obj\Debug\Reportes.csproj.GenerateResource.cache
 C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\obj\Debug\Reportes.csproj.CoreCompileInputs.cache
@@ -69,5 +66,4 @@ C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\obj\Debug\Reportes.dll
 C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\obj\Debug\Reportes.pdb
 C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\bin\Debug\General.dll
 C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\bin\Debug\General.pdb
-C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\obj\Debug\Reportes.GUI.Form1.resources
 C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\obj\Debug\Reportes.GUI.VisorNotas.resources

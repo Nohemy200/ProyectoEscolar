@@ -21,23 +21,14 @@ namespace Reportes.GUI
         private void CargarReporte()
         {
             // Crear el DataTable y cargar datos para el primer informe
-            DataTable Datos1 = new DataTable();
-            REP.Notas oReporte1 = new REP.Notas();
-            Datos1 = DataManager.DBConsultas.REPORTE_NOTAS(10, 1, "2023");
-            oReporte1.SetDataSource(Datos1);
+            DataTable Datos = new DataTable();
+            REP.Notas oReporte = new REP.Notas();
+            Datos = DataManager.DBConsultas.REPORTE_NOTAS(10, 1, "2023");
+            oReporte.SetDataSource(Datos);
 
-            // Crear el DataTable y cargar datos para el segundo informe
-            DataTable Datos2 = new DataTable();
-            REP.Notas oReporte2 = new REP.Notas();
-            Datos2 = DataManager.DBConsultas.REPORTE_NOTAS(10, 1, "2023");
-            oReporte1.SetDataSource(Datos2);
-
-            // Agregar los informes individuales al informe combinado
-            oReporte1.Subreports["Subreport1"].SetDataSource(Datos1);
-            oReporte1.Subreports["Subreport2"].SetDataSource(Datos2);
 
             // Asignar el informe combinado al visor de informes
-            crvVisor.ReportSource = oReporte1;
+            crvVisor.ReportSource = oReporte;
 
         }
 
@@ -48,6 +39,11 @@ namespace Reportes.GUI
         private void VisorNotas_Load(object sender, EventArgs e)
         {
             CargarReporte();
+        }
+
+        private void crvVisor_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
