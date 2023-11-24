@@ -201,14 +201,14 @@ namespace SGE.GUI
             // reporteMatriculaToolStripMenuItem
             // 
             this.reporteMatriculaToolStripMenuItem.Name = "reporteMatriculaToolStripMenuItem";
-            this.reporteMatriculaToolStripMenuItem.Size = new System.Drawing.Size(278, 22);
+            this.reporteMatriculaToolStripMenuItem.Size = new System.Drawing.Size(228, 22);
             this.reporteMatriculaToolStripMenuItem.Text = "Reporte Matriculas";
             this.reporteMatriculaToolStripMenuItem.Click += new System.EventHandler(this.reporteMatriculaToolStripMenuItem_Click);
             // 
             // reporteNotasToolStripMenuItem
             // 
             this.reporteNotasToolStripMenuItem.Name = "reporteNotasToolStripMenuItem";
-            this.reporteNotasToolStripMenuItem.Size = new System.Drawing.Size(278, 22);
+            this.reporteNotasToolStripMenuItem.Size = new System.Drawing.Size(228, 22);
             this.reporteNotasToolStripMenuItem.Text = "Reporte Notas";
             this.reporteNotasToolStripMenuItem.Click += new System.EventHandler(this.reporteNotasToolStripMenuItem_Click);
             // 
@@ -244,14 +244,14 @@ namespace SGE.GUI
             this.notasToolStripMenuItem.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.notasToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("notasToolStripMenuItem.Image")));
             this.notasToolStripMenuItem.Name = "notasToolStripMenuItem";
-            this.notasToolStripMenuItem.Size = new System.Drawing.Size(122, 59);
-            this.notasToolStripMenuItem.Text = "Notas";
+            this.notasToolStripMenuItem.Size = new System.Drawing.Size(186, 59);
+            this.notasToolStripMenuItem.Text = "Calificasiones";
             // 
             // asignarNotasToolStripMenuItem
             // 
             this.asignarNotasToolStripMenuItem.Name = "asignarNotasToolStripMenuItem";
-            this.asignarNotasToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
-            this.asignarNotasToolStripMenuItem.Text = "Calificasiones";
+            this.asignarNotasToolStripMenuItem.Size = new System.Drawing.Size(253, 22);
+            this.asignarNotasToolStripMenuItem.Text = "Asignar Calificasiones";
             this.asignarNotasToolStripMenuItem.Click += new System.EventHandler(this.asignarNotasToolStripMenuItem_Click);
             // 
             // salirToolStripMenuItem

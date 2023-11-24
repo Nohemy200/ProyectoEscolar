@@ -195,19 +195,35 @@ namespace Calificasiones
 
                 foreach (DataGridViewRow item in dgvDatos.Rows)
                 {
-                    string notaValue = Convert.ToString(item.Cells["nota"].Value); // Evita excepciones si la celda es nula
-                    string idNotaValue = Convert.ToString(item.Cells["idnota"].Value); // Evita excepciones si la celda es nula
+                    string notaValue = Convert.ToString(item.Cells["nota"].Value);
+                    string idNotaValue = Convert.ToString(item.Cells["idnota"].Value);
 
-                    nota = new General.CLS.Notas();
-                    nota.Nota = notaValue;
-                    nota.IdNota = idNotaValue;
+                    if (int.TryParse(notaValue, out int notaNumero))
+                    {
+                        // Verifica si la nota es mayor a 10
+                        if (notaNumero > 10)
+                        {
+                            MessageBox.Show("Verifique, No se permiten valores mayores a 10.");
+                            return; // Sale del método sin guardar los datos
+                        }
 
-                    nota.Actualizar();
+                        // Crea una instancia de la clase Notas y actualiza los datos
+                        nota = new General.CLS.Notas();
+                        nota.Nota = notaValue;
+                        nota.IdNota = idNotaValue;
+
+                        nota.Actualizar();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Por favor, ingresa un valor numérico válido en la fila " + (item.Index + 1));
+                        return; // Sale del método si no se puede convertir la nota a un número
+                    }
                 }
-                MessageBox.Show("Datos guardados con exito.");
+
+                MessageBox.Show("Calificasion guardada con éxito :)");
             }
         }
-
         private void combAñoLectivo_SelectionChangeCommitted(object sender, EventArgs e)
         {
             if (combCiclo.SelectedItem != null && combGrado.SelectedItem != null && combMateria.SelectedItem != null && combSeccion.SelectedItem != null && combPeriodo.SelectedItem != null)

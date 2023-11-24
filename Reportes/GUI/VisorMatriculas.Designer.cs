@@ -42,6 +42,7 @@ namespace Reportes.GUI
             this.crvVisor.Name = "crvVisor";
             this.crvVisor.Size = new System.Drawing.Size(800, 450);
             this.crvVisor.TabIndex = 0;
+            this.crvVisor.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None;
             // 
             // VisorMatriculas
             // 

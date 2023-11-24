@@ -132,7 +132,7 @@ namespace Matriculas.GUI
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(114, 35);
             this.btnBuscar.TabIndex = 118;
-            this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.Text = "Imprimir";
             this.btnBuscar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnBuscar.UseVisualStyleBackColor = false;
             // 

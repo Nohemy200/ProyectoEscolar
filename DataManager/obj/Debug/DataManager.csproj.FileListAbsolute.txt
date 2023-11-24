@@ -7,15 +7,6 @@ D:\Repositorios\USO\Sistema de Gestion de Usuarios\DataManager\obj\Debug\DataMan
 D:\Repositorios\USO\Sistema de Gestion de Usuarios\DataManager\obj\Debug\DataManager.csproj.CopyComplete
 D:\Repositorios\USO\Sistema de Gestion de Usuarios\DataManager\obj\Debug\DataManager.dll
 D:\Repositorios\USO\Sistema de Gestion de Usuarios\DataManager\obj\Debug\DataManager.pdb
-C:\Users\ADMIN\Desktop\Sistema Escolar\DataManager\bin\Debug\DataManager.dll
-C:\Users\ADMIN\Desktop\Sistema Escolar\DataManager\bin\Debug\DataManager.pdb
-C:\Users\ADMIN\Desktop\Sistema Escolar\DataManager\bin\Debug\MySql.Data.dll
-C:\Users\ADMIN\Desktop\Sistema Escolar\DataManager\bin\Debug\MySql.Data.xml
-C:\Users\ADMIN\Desktop\Sistema Escolar\DataManager\obj\Debug\DataManager.csproj.AssemblyReference.cache
-C:\Users\ADMIN\Desktop\Sistema Escolar\DataManager\obj\Debug\DataManager.csproj.CoreCompileInputs.cache
-C:\Users\ADMIN\Desktop\Sistema Escolar\DataManager\obj\Debug\DataManager.csproj.CopyComplete
-C:\Users\ADMIN\Desktop\Sistema Escolar\DataManager\obj\Debug\DataManager.dll
-C:\Users\ADMIN\Desktop\Sistema Escolar\DataManager\obj\Debug\DataManager.pdb
 C:\Users\fruiz\OneDrive\Escritorio\Sistema Escolar\DataManager\bin\Debug\DataManager.dll
 C:\Users\fruiz\OneDrive\Escritorio\Sistema Escolar\DataManager\bin\Debug\DataManager.pdb
 C:\Users\fruiz\OneDrive\Escritorio\Sistema Escolar\DataManager\bin\Debug\MySql.Data.dll
@@ -25,3 +16,14 @@ C:\Users\fruiz\OneDrive\Escritorio\Sistema Escolar\DataManager\obj\Debug\DataMan
 C:\Users\fruiz\OneDrive\Escritorio\Sistema Escolar\DataManager\obj\Debug\DataManager.csproj.CopyComplete
 C:\Users\fruiz\OneDrive\Escritorio\Sistema Escolar\DataManager\obj\Debug\DataManager.dll
 C:\Users\fruiz\OneDrive\Escritorio\Sistema Escolar\DataManager\obj\Debug\DataManager.pdb
+C:\Users\ADMIN\Desktop\Sistema Escolar\DataManager\bin\Debug\DataManager.dll
+C:\Users\ADMIN\Desktop\Sistema Escolar\DataManager\bin\Debug\DataManager.pdb
+C:\Users\ADMIN\Desktop\Sistema Escolar\DataManager\bin\Debug\MySql.Data.dll
+C:\Users\ADMIN\Desktop\Sistema Escolar\DataManager\bin\Debug\MySql.Data.xml
+C:\Users\ADMIN\Desktop\Sistema Escolar\DataManager\obj\Debug\DataManager.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\Sistema Escolar\DataManager\obj\Debug\DataManager.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\Sistema Escolar\DataManager\obj\Debug\DataManager.csproj.CopyComplete
+C:\Users\ADMIN\Desktop\Sistema Escolar\DataManager\obj\Debug\DataManager.dll
+C:\Users\ADMIN\Desktop\Sistema Escolar\DataManager\obj\Debug\DataManager.pdb
+C:\Users\ADMIN\Desktop\Sistema Escolar\DataManager\obj\Debug\Matriculas.GUI.FormReport.resources
+C:\Users\ADMIN\Desktop\Sistema Escolar\DataManager\obj\Debug\DataManager.csproj.GenerateResource.cache
