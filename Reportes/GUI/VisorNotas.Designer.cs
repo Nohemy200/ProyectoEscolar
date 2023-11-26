@@ -60,6 +60,6 @@ namespace Reportes.GUI
 
         #endregion
 
-        private CrystalDecisions.Windows.Forms.CrystalReportViewer crvVisor;
+        public CrystalDecisions.Windows.Forms.CrystalReportViewer crvVisor;
     }
 }

@@ -273,5 +273,11 @@ namespace SGE.GUI
             Reportes.GUI.VisorNotas f = new Reportes.GUI.VisorNotas();
             f.ShowDialog();
         }
+
+        private void reporteDeNotasPorGradoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Matriculas.GUI.ReporteDeNotasPorGrado f = new Matriculas.GUI.ReporteDeNotasPorGrado();
+            f.ShowDialog();
+        }
     }
 }

@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Matriculas.GUI
 {
-    public partial class FormReport : Form
+    public partial class ReportePorGrado : Form
     {
-        public FormReport()
+        public ReportePorGrado()
         {
-            InitializeComponent();
-        }
-
-        private void FormReport_Load(object sender, EventArgs e)
-        {
-
+            
         }
     }
 }
