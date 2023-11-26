@@ -279,5 +279,12 @@ namespace SGE.GUI
             Matriculas.GUI.ReporteDeNotasPorGrado f = new Matriculas.GUI.ReporteDeNotasPorGrado();
             f.ShowDialog();
         }
+
+
+        private void reporteDeMatriculasPorGradoToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            Matriculas.GUI.ReporteDeMatriculasPorGrado f = new Matriculas.GUI.ReporteDeMatriculasPorGrado();
+            f.ShowDialog();
+        }
     }
 }

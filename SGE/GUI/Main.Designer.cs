@@ -48,6 +48,8 @@ namespace SGE.GUI
             this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reporteMatriculaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reporteNotasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reporteDeNotasPorGradoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reporteDeMatriculasPorGradoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.matriculasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nuevaMatriculaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.buscarMateriasPorAlumnoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -62,7 +64,6 @@ namespace SGE.GUI
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.bgwConexion = new System.ComponentModel.BackgroundWorker();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.reporteDeNotasPorGradoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
             this.SuspendLayout();
@@ -193,7 +194,8 @@ namespace SGE.GUI
             this.reportesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.reporteMatriculaToolStripMenuItem,
             this.reporteNotasToolStripMenuItem,
-            this.reporteDeNotasPorGradoToolStripMenuItem});
+            this.reporteDeNotasPorGradoToolStripMenuItem,
+            this.reporteDeMatriculasPorGradoToolStripMenuItem});
             this.reportesToolStripMenuItem.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.reportesToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("reportesToolStripMenuItem.Image")));
             this.reportesToolStripMenuItem.Name = "reportesToolStripMenuItem";
@@ -203,16 +205,30 @@ namespace SGE.GUI
             // reporteMatriculaToolStripMenuItem
             // 
             this.reporteMatriculaToolStripMenuItem.Name = "reporteMatriculaToolStripMenuItem";
-            this.reporteMatriculaToolStripMenuItem.Size = new System.Drawing.Size(291, 22);
+            this.reporteMatriculaToolStripMenuItem.Size = new System.Drawing.Size(330, 22);
             this.reporteMatriculaToolStripMenuItem.Text = "Reporte Matriculas";
             this.reporteMatriculaToolStripMenuItem.Click += new System.EventHandler(this.reporteMatriculaToolStripMenuItem_Click);
             // 
             // reporteNotasToolStripMenuItem
             // 
             this.reporteNotasToolStripMenuItem.Name = "reporteNotasToolStripMenuItem";
-            this.reporteNotasToolStripMenuItem.Size = new System.Drawing.Size(291, 22);
+            this.reporteNotasToolStripMenuItem.Size = new System.Drawing.Size(330, 22);
             this.reporteNotasToolStripMenuItem.Text = "Reporte Notas";
             this.reporteNotasToolStripMenuItem.Click += new System.EventHandler(this.reporteNotasToolStripMenuItem_Click);
+            // 
+            // reporteDeNotasPorGradoToolStripMenuItem
+            // 
+            this.reporteDeNotasPorGradoToolStripMenuItem.Name = "reporteDeNotasPorGradoToolStripMenuItem";
+            this.reporteDeNotasPorGradoToolStripMenuItem.Size = new System.Drawing.Size(330, 22);
+            this.reporteDeNotasPorGradoToolStripMenuItem.Text = "reporte de notas por grado";
+            this.reporteDeNotasPorGradoToolStripMenuItem.Click += new System.EventHandler(this.reporteDeNotasPorGradoToolStripMenuItem_Click);
+            // 
+            // reporteDeMatriculasPorGradoToolStripMenuItem
+            // 
+            this.reporteDeMatriculasPorGradoToolStripMenuItem.Name = "reporteDeMatriculasPorGradoToolStripMenuItem";
+            this.reporteDeMatriculasPorGradoToolStripMenuItem.Size = new System.Drawing.Size(330, 22);
+            this.reporteDeMatriculasPorGradoToolStripMenuItem.Text = "reporte de matriculas por grado";
+            this.reporteDeMatriculasPorGradoToolStripMenuItem.Click += new System.EventHandler(this.reporteDeMatriculasPorGradoToolStripMenuItem_Click_1);
             // 
             // matriculasToolStripMenuItem
             // 
@@ -331,13 +347,6 @@ namespace SGE.GUI
             this.timer1.Interval = 3000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // reporteDeNotasPorGradoToolStripMenuItem
-            // 
-            this.reporteDeNotasPorGradoToolStripMenuItem.Name = "reporteDeNotasPorGradoToolStripMenuItem";
-            this.reporteDeNotasPorGradoToolStripMenuItem.Size = new System.Drawing.Size(291, 22);
-            this.reporteDeNotasPorGradoToolStripMenuItem.Text = "reporte de notas por grado";
-            this.reporteDeNotasPorGradoToolStripMenuItem.Click += new System.EventHandler(this.reporteDeNotasPorGradoToolStripMenuItem_Click);
-            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -400,6 +409,7 @@ namespace SGE.GUI
         private System.Windows.Forms.ToolStripMenuItem asignarNotasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem reporteNotasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem reporteDeNotasPorGradoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem reporteDeMatriculasPorGradoToolStripMenuItem;
     }
 }
 

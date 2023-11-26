@@ -57,6 +57,12 @@
     <Compile Include="GUI\NuevaMatricula.Designer.cs">
       <DependentUpon>NuevaMatricula.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\ReporteDeMatriculasPorGrado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ReporteDeMatriculasPorGrado.Designer.cs">
+      <DependentUpon>ReporteDeMatriculasPorGrado.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\ReporteDeNotasPorGrado.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +82,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\NuevaMatricula.resx">
       <DependentUpon>NuevaMatricula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ReporteDeMatriculasPorGrado.resx">
+      <DependentUpon>ReporteDeMatriculasPorGrado.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\ReporteDeNotasPorGrado.resx">
       <DependentUpon>ReporteDeNotasPorGrado.cs</DependentUpon>

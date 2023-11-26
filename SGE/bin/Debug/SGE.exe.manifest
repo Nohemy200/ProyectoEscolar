@@ -295,14 +295,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Matriculas.dll" size="221184">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Matriculas.dll" size="397312">
       <assemblyIdentity name="Matriculas" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>yPA6gIsljf971QFkdCmgOrhUu83Zn5oIXErdSyJBdbk=</dsig:DigestValue>
+        <dsig:DigestValue>u8kqC5ITGXkJ7YQRh+XCR9xrnNsj6NsW0Vsh9VCrnNc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -326,7 +326,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>2LXMAm2O+bLmwR+1ClqwNbCp6TRsRAzL8hneds1IirE=</dsig:DigestValue>
+        <dsig:DigestValue>F5u+XeYA2k68t1t7m8+lHiudaYGmocB2MYJJ/tVcFjg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -343,14 +343,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SGE.exe" size="2023392">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SGE.exe" size="2023904">
       <assemblyIdentity name="SGE" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>HvMHcGhwrhody8fS0Z/aL6N1UCZPohNY/OiehVvk1XM=</dsig:DigestValue>
+        <dsig:DigestValue>uUxE3m5vpWr4dN5qy5OQ/A4w917OGDxeyQUUgNbso00=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

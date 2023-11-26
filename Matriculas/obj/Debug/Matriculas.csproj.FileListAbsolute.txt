@@ -61,3 +61,4 @@ C:\Users\ADMIN\Desktop\Sistema Escolar\Matriculas\bin\Debug\CrystalDecisions.Rep
 C:\Users\ADMIN\Desktop\Sistema Escolar\Matriculas\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
 C:\Users\ADMIN\Desktop\Sistema Escolar\Matriculas\bin\Debug\stdole.dll
 C:\Users\ADMIN\Desktop\Sistema Escolar\Matriculas\bin\Debug\Reportes.pdb
+C:\Users\ADMIN\Desktop\Sistema Escolar\Matriculas\obj\Debug\Matriculas.GUI.ReporteDeMatriculasPorGrado.resources
