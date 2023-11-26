@@ -15,9 +15,14 @@ namespace SGE.GUI
         Boolean autorizado = false;
         SessionManager.Session oSesion = SessionManager.Session.Instancia;
         public bool Autorizado{get =>autorizado;}
+
+
         public Login()
         {
             InitializeComponent();
+            // Asociar el evento Click del botón btnMostrarContra al método btnMostrarContra_Click
+            btnMostrarContra.Click += btnMostrarContra_Click;
+
         }
 
         private void Login_Load(object sender, EventArgs e)
@@ -62,15 +67,34 @@ namespace SGE.GUI
 
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
-                LimpiarCampos();
+                Close();
         }
 
-        private void LimpiarCampos()
+        private void btnMostrarContra_Click(object sender, EventArgs e)
         {
-            txtUsuario.Text = string.Empty;
-            txtClave.Text = string.Empty;
-            // Coloca el foco en el primer TextBox después de limpiar los campos
-            txtUsuario.Focus();
+            // Cambiar el carácter de contraseña a texto normal y viceversa
+            if (txtClave.PasswordChar == '\0')
+            {
+                // La contraseña se está mostrando, así que la ocultamos
+                txtClave.PasswordChar = '*'; // o cualquier carácter que prefieras para ocultar la contraseña
+            }
+            else
+            {
+                // La contraseña está oculta, así que la mostramos
+                txtClave.PasswordChar = '\0'; // '\0' indica que no se mostrará ningún carácter especial
+            }
         }
+
+
     }
+
+    /*private void LimpiarCampos()
+    {
+        txtUsuario.Text = string.Empty;
+        txtClave.Text = string.Empty;
+        // Coloca el foco en el primer TextBox después de limpiar los campos
+        txtUsuario.Focus();
+    }
+    */
 }
+

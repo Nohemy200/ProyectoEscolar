@@ -343,14 +343,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SGE.exe" size="2023904">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SGE.exe" size="2025440">
       <assemblyIdentity name="SGE" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>uUxE3m5vpWr4dN5qy5OQ/A4w917OGDxeyQUUgNbso00=</dsig:DigestValue>
+        <dsig:DigestValue>hA17LaOJyVDzcWmpmJLpHKIxTmu5kd5BCQfbZAwaZxk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
