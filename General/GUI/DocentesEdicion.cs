@@ -81,9 +81,25 @@ namespace General.GUI
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            //Creacion del objeto entidad
+            // Validar campos obligatorios
+            if (string.IsNullOrWhiteSpace(txtNombresDocente.Text) ||
+                string.IsNullOrWhiteSpace(txtApellidosDocente.Text) ||
+                string.IsNullOrWhiteSpace(txtDuii.Text) ||
+                string.IsNullOrWhiteSpace(txtTelefono.Text) ||
+                string.IsNullOrWhiteSpace(dtpFecha.Text) ||
+                combGenero.SelectedValue == null ||
+                combEstado.SelectedValue == null ||
+                combEspecialidad.SelectedValue == null ||
+                string.IsNullOrWhiteSpace(txtIdDireccion.Text))
+            {
+                MessageBox.Show("Todos los campos son obligatorios. Por favor, complete todos los campos.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return; // No continúes con el proceso de guardar si hay campos vacíos.
+            }
+
+            // Creacion del objeto entidad
             CLS.Docentes oDocentes = new CLS.Docentes();
-            //Sincronizar la entidad con la interfaz
+
+            // Sincronizar la entidad con la interfaz
             oDocentes.NombresDocente = txtNombresDocente.Text.ToUpper();
             oDocentes.ApellidosDocente = txtApellidosDocente.Text.ToUpper();
             oDocentes.Dui = txtDuii.Text;
@@ -94,12 +110,11 @@ namespace General.GUI
             oDocentes.IdEspecialidad = combEspecialidad.SelectedValue.ToString();
             oDocentes.IdDireccion = txtIdDireccion.Text;
 
-
-            //Identificar la accion a realizar
+            // Identificar la accion a realizar
             if (txtIdDocente.TextLength > 0)
             {
+                // Realizar la operacion de actualizar
                 oDocentes.IdDocente = txtIdDocente.Text;
-                //Realizar la operacion de actualizar
                 if (oDocentes.Actualizar())
                 {
                     MessageBox.Show("¡Registro actualizado correctamente!", "Confirmación", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -112,7 +127,7 @@ namespace General.GUI
             }
             else
             {
-                //Realizar la operacion de insertar
+                // Realizar la operacion de insertar
                 if (oDocentes.Insertar())
                 {
                     MessageBox.Show("¡Registro insertado correctamente!", "Confirmación", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -124,6 +139,7 @@ namespace General.GUI
                 }
             }
         }
+
 
         private void btnCancelar_Click(object sender, EventArgs e)
         {

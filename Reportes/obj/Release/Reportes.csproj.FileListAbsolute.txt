@@ -1,6 +1,5 @@
 C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\bin\Release\Reportes.dll
 C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\bin\Release\Reportes.pdb
-C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\bin\Release\AxShockwaveFlashObjects.dll
 C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
 C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\bin\Release\CrystalDecisions.ReportSource.dll
 C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\bin\Release\CrystalDecisions.Shared.dll
@@ -24,12 +23,12 @@ C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\bin\Release\CrystalDecisions.Rep
 C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\bin\Release\DataManager.pdb
 C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\bin\Release\MySql.Data.xml
 C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\obj\Release\Reportes.csproj.AssemblyReference.cache
-C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\obj\Release\Reportes.GUI.VisorAlumnos.resources
-C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\obj\Release\Reportes.GUI.Aulas.resources
-C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\obj\Release\Reportes.GUI.VisorAlumnosActivos.resources
 C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\obj\Release\Reportes.GUI.VisorMatriculas.resources
 C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\obj\Release\Reportes.csproj.GenerateResource.cache
 C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\obj\Release\Reportes.csproj.CoreCompileInputs.cache
 C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\obj\Release\Reportes.csproj.CopyComplete
 C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\obj\Release\Reportes.dll
 C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\obj\Release\Reportes.pdb
+C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\bin\Release\General.dll
+C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\bin\Release\General.pdb
+C:\Users\ADMIN\Desktop\Sistema Escolar\Reportes\obj\Release\Reportes.GUI.VisorNotas.resources

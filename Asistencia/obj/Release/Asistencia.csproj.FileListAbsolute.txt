@@ -1,0 +1,13 @@
+C:\Users\ADMIN\Desktop\Sistema Escolar\Asistencia\bin\Release\Asistencia.dll
+C:\Users\ADMIN\Desktop\Sistema Escolar\Asistencia\bin\Release\Asistencia.pdb
+C:\Users\ADMIN\Desktop\Sistema Escolar\Asistencia\bin\Release\DataManager.dll
+C:\Users\ADMIN\Desktop\Sistema Escolar\Asistencia\bin\Release\MySql.Data.dll
+C:\Users\ADMIN\Desktop\Sistema Escolar\Asistencia\bin\Release\DataManager.pdb
+C:\Users\ADMIN\Desktop\Sistema Escolar\Asistencia\bin\Release\MySql.Data.xml
+C:\Users\ADMIN\Desktop\Sistema Escolar\Asistencia\obj\Release\Asistencia.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\Sistema Escolar\Asistencia\obj\Release\Asistencia.GUI.AsistenciaGestion.resources
+C:\Users\ADMIN\Desktop\Sistema Escolar\Asistencia\obj\Release\Asistencia.csproj.GenerateResource.cache
+C:\Users\ADMIN\Desktop\Sistema Escolar\Asistencia\obj\Release\Asistencia.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\Sistema Escolar\Asistencia\obj\Release\Asistencia.csproj.CopyComplete
+C:\Users\ADMIN\Desktop\Sistema Escolar\Asistencia\obj\Release\Asistencia.dll
+C:\Users\ADMIN\Desktop\Sistema Escolar\Asistencia\obj\Release\Asistencia.pdb

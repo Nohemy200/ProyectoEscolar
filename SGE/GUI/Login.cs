@@ -88,13 +88,6 @@ namespace SGE.GUI
 
     }
 
-    /*private void LimpiarCampos()
-    {
-        txtUsuario.Text = string.Empty;
-        txtClave.Text = string.Empty;
-        // Coloca el foco en el primer TextBox después de limpiar los campos
-        txtUsuario.Focus();
-    }
-    */
+    
 }
 

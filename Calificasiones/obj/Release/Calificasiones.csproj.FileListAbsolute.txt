@@ -1,0 +1,16 @@
+C:\Users\ADMIN\Desktop\Sistema Escolar\Calificasiones\bin\Release\Calificasiones.dll
+C:\Users\ADMIN\Desktop\Sistema Escolar\Calificasiones\bin\Release\Calificasiones.pdb
+C:\Users\ADMIN\Desktop\Sistema Escolar\Calificasiones\bin\Release\DataManager.dll
+C:\Users\ADMIN\Desktop\Sistema Escolar\Calificasiones\bin\Release\General.dll
+C:\Users\ADMIN\Desktop\Sistema Escolar\Calificasiones\bin\Release\MySql.Data.dll
+C:\Users\ADMIN\Desktop\Sistema Escolar\Calificasiones\bin\Release\DataManager.pdb
+C:\Users\ADMIN\Desktop\Sistema Escolar\Calificasiones\bin\Release\General.pdb
+C:\Users\ADMIN\Desktop\Sistema Escolar\Calificasiones\bin\Release\MySql.Data.xml
+C:\Users\ADMIN\Desktop\Sistema Escolar\Calificasiones\obj\Release\Calificasiones.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\Sistema Escolar\Calificasiones\obj\Release\Calificasiones.AsignarNotas.resources
+C:\Users\ADMIN\Desktop\Sistema Escolar\Calificasiones\obj\Release\Calificasiones.Properties.Resources.resources
+C:\Users\ADMIN\Desktop\Sistema Escolar\Calificasiones\obj\Release\Calificasiones.csproj.GenerateResource.cache
+C:\Users\ADMIN\Desktop\Sistema Escolar\Calificasiones\obj\Release\Calificasiones.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\Sistema Escolar\Calificasiones\obj\Release\Calificasiones.csproj.CopyComplete
+C:\Users\ADMIN\Desktop\Sistema Escolar\Calificasiones\obj\Release\Calificasiones.dll
+C:\Users\ADMIN\Desktop\Sistema Escolar\Calificasiones\obj\Release\Calificasiones.pdb

@@ -57,9 +57,24 @@ namespace General.GUI
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            //Creacion del objeto entidad
+            // Validar campos obligatorios
+            if (string.IsNullOrWhiteSpace(txtTipo.Text) ||
+                string.IsNullOrWhiteSpace(txtDui.Text) ||
+                string.IsNullOrWhiteSpace(txtNombreApoderado.Text) ||
+                string.IsNullOrWhiteSpace(txtApellidos.Text) ||
+                string.IsNullOrWhiteSpace(txtTelefono.Text) ||
+                string.IsNullOrWhiteSpace(dtpFecha.Text) ||
+                combGenero.SelectedValue == null ||
+                string.IsNullOrWhiteSpace(txtIdDireccion.Text))
+            {
+                MessageBox.Show("Todos los campos son obligatorios. Por favor, complete todos los campos.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return; // No continúes con el proceso de guardar si hay campos vacíos.
+            }
+
+            // Creacion del objeto entidad
             CLS.Apoderados oApoderado = new CLS.Apoderados();
-            //Sincronizar la entidad con la interfaz
+
+            // Sincronizar la entidad con la interfaz
             oApoderado.TipoRelacion = txtTipo.Text.ToUpper();
             oApoderado.Dui = txtDui.Text;
             oApoderado.NombresApoderado = txtNombreApoderado.Text.ToUpper();
@@ -68,11 +83,12 @@ namespace General.GUI
             oApoderado.FechaNacimiento = dtpFecha.Text;
             oApoderado.IdDireccion = txtIdDireccion.Text;
             oApoderado.IdGenero = combGenero.SelectedValue.ToString();
-            //Identificar la accion a realizar
+
+            // Identificar la accion a realizar
             if (txtIDApoderado.TextLength > 0)
             {
+                // Realizar la operacion de actualizar
                 oApoderado.IdApoderado = txtIDApoderado.Text;
-                //Realizar la operacion de actualizar
                 if (oApoderado.Actualizar())
                 {
                     MessageBox.Show("¡Registro actualizado correctamente!", "Confirmación", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -85,7 +101,7 @@ namespace General.GUI
             }
             else
             {
-                //Realizar la operacion de insertar
+                // Realizar la operacion de insertar
                 if (oApoderado.Insertar())
                 {
                     MessageBox.Show("¡Registro insertado correctamente!", "Confirmación", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -97,6 +113,7 @@ namespace General.GUI
                 }
             }
         }
+
 
         private void combGenero_SelectedIndexChanged(object sender, EventArgs e)
         {
